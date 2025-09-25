@@ -1,0 +1,1388 @@
+[
+    {
+        "type": "lsat",
+        "premises": "A street entertainer has six boxes stacked one on top of the other and numbered consecutively 1 through 6, from the lowest box up to the highest. Each box contains a single ball, and each ball is one of three colors\u2014green, red, or white. Onlookers are to guess the color of each ball in each box, given that the following conditions hold: There are more red balls than white balls. There is a box containing a green ball that is lower in the stack than any box that contains a red ball. There is a white ball in a box that is immediately below a box that contains a green ball.",
+        "conclusion": "If there are green balls in boxes 5 and 6, then it could be true that there is a white ball in box 2.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A street entertainer has six boxes stacked one on top of the other and numbered consecutively 1 through 6, from the lowest box up to the highest. Each box contains a single ball, and each ball is one of three colors\u2014green, red, or white. Onlookers are to guess the color of each ball in each box, given that the following conditions hold: There are more red balls than white balls. There is a box containing a green ball that is lower in the stack than any box that contains a red ball. There is a white ball in a box that is immediately below a box that contains a green ball.",
+        "conclusion": "There must be a red ball in a box that is higher than box 4.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A television programming director is scheduling a three-hour block of programs beginning at 1 P.M. The programs that are to fill this time block include an hour-long program called Generations and four half-hour programs: Roamin', Sundown, Terry, and Waterloo. The programs will be shown one after the other, each program shown exactly once. The schedule must meet the following constraints: Generations starts on the hour rather than the half hour. Terry starts on the half hour rather than the hour. Roamin' is shown earlier than Sundown. If Waterloo is shown earlier than Terry, it is shown immediately before Terry.",
+        "conclusion": "If Generations is the third program, then Sundown could be the fourth program.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six of eight ceramic bowls, each crafted by exactly one of eight potters\u2014Larsen, Mills, Neiman, Olivera, Park, Reigel, Serra, and Vance\u2014will be displayed in a row in positions consecutively numbered 1 through 6, one bowl per position. The display is subject to the following conditions: If Larsen's bowl is displayed, Mills's bowl cannot be displayed. Park's bowl can be displayed only if it is next to Olivera's bowl and next to Serra's bowl. Reigel's bowl can be displayed only in either position 1 or position 6. Serra's bowl cannot be displayed in either position 2 or position 4. Neiman's bowl can be displayed only in position 5.",
+        "conclusion": "If Larsen's bowl is displayed in position 1 and Olivera's bowl is displayed in position 4, then Park is a potter whose bowl cannot be displayed.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "At a business symposium there will be exactly five speakers: Long, Molina, Xiao, Yoshida, and Zimmerman. Each speaker will give exactly one speech, in either the Gold Room or the Rose Room. In each room, there will be exactly one speech at 1 P.M. and one speech at 2 P.M. In one of the rooms, yet to be determined, there will also be a speech at 3 P.M. The schedule of speeches is constrained by the following: Molina's speech must be earlier than Long's, and in the same room. Neither Xiao's speech nor Yoshida's speech can be earlier than Zimmerman's. If Long's speech is in the Gold Room, then Xiao's and Zimmerman's speeches must both be in the Rose Room.",
+        "conclusion": "Xiao's and Yoshida's speeches cannot be given at the same time.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A television programming director is scheduling a three-hour block of programs beginning at 1 P.M. The programs that are to fill this time block include an hour-long program called Generations and four half-hour programs: Roamin', Sundown, Terry, and Waterloo. The programs will be shown one after the other, each program shown exactly once. The schedule must meet the following constraints: Generations starts on the hour rather than the half hour. Terry starts on the half hour rather than the hour. Roamin' is shown earlier than Sundown. If Waterloo is shown earlier than Terry, it is shown immediately before Terry.",
+        "conclusion": "If Sundown is the third program, then Waterloo must be the fourth program.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A company's six vehicles\u2014a hatchback, a limousine, a pickup, a roadster, a sedan, and a van\u2014are serviced during a certain week\u2014Monday through Saturday\u2014one vehicle per day. The following conditions must apply: At least one of the vehicles is serviced later in the week than the hatchback. The roadster is serviced later in the week than the van and earlier in the week than the hatchback. Either the pickup and the van are serviced on consecutive days, or the pickup and the sedan are serviced on consecutive days, but not both. The sedan is serviced earlier in the week than the pickup or earlier in the week than the limousine, but not both.",
+        "conclusion": "The van cannot be the vehicle serviced on Thursday.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A television programming director is scheduling a three-hour block of programs beginning at 1 P.M. The programs that are to fill this time block include an hour-long program called Generations and four half-hour programs: Roamin', Sundown, Terry, and Waterloo. The programs will be shown one after the other, each program shown exactly once. The schedule must meet the following constraints: Generations starts on the hour rather than the half hour. Terry starts on the half hour rather than the hour. Roamin' is shown earlier than Sundown. If Waterloo is shown earlier than Terry, it is shown immediately before Terry.",
+        "conclusion": "Substituting the constraint that Generations is not shown immediately before Terry would have the same effect as the original constraint that Generations starts on the hour rather than the half hour in determining the order of the programs.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A company's six vehicles\u2014a hatchback, a limousine, a pickup, a roadster, a sedan, and a van\u2014are serviced during a certain week\u2014Monday through Saturday\u2014one vehicle per day. The following conditions must apply: At least one of the vehicles is serviced later in the week than the hatchback. The roadster is serviced later in the week than the van and earlier in the week than the hatchback. Either the pickup and the van are serviced on consecutive days, or the pickup and the sedan are serviced on consecutive days, but not both. The sedan is serviced earlier in the week than the pickup or earlier in the week than the limousine, but not both.",
+        "conclusion": "The vehicles serviced on Tuesday, Wednesday, and Friday, in that order, could be the pickup, the roadster, and the hatchback.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A researcher is studying seven manuscripts\u2014F, G, H, L, M, P, and S\u2014to determine their relative ages. It is known that no two manuscripts were written at the same time. The researcher has also determined the following: H was written earlier than S but later than F. P was the next manuscript written after G. At least four of the manuscripts were written earlier than L. At least four of the manuscripts were written later than M. H was not written fifth.",
+        "conclusion": "The order in which the manuscripts were written, from first to last, could be L, F, M, G, P, H, S.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of the seven members of the board of directors\u2014Guzman, Hawking, Lepp, Miyauchi, Upchurch, Wharton, and Zhu\u2014serves on exactly one of two committees\u2014the finance committee or the incentives committee. Only board members serve on these committees. Committee membership is consistent with the following conditions: If Guzman serves on the finance committee, then Hawking serves on the incentives committee. If Lepp serves on the finance committee, then Miyauchi and Upchurch both serve on the incentives committee. Wharton serves on a different committee from the one on which Zhu serves. Upchurch serves on a different committee from the one on which Guzman serves. If Zhu serves on the finance committee, so does Hawking.",
+        "conclusion": "If Miyauchi and Wharton both serve on the finance committee, then Lepp and Upchurch both serving on the incentives committee could be true.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Six park rangers\u2014Jefferson, Koguchi, Larson, Mendez, Olsen, and Pruitt\u2014are each to be assigned to monitor one of three areas\u2014area 1, area 2, and area 3\u2014in a national park. At least one ranger, but no more than three, is assigned to each area. The assignment must conform to the following conditions: Mendez is assigned to area 3. Neither Olsen nor Pruitt is assigned to area 1. Larson is assigned to the same area as either Koguchi or Mendez but not to the same area as both. If Olsen is assigned to area 2, then Jefferson is assigned to the same area as Koguchi; otherwise, Jefferson is assigned to a different area than Koguchi.",
+        "conclusion": "If Olsen is the sole ranger assigned to area 2, then Mendez and Pruitt could be the complete assignment of rangers to area 3.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A professor must determine the order in which five of her students\u2014Fernando, Ginny, Hakim, Juanita, and Kevin\u2014will perform in an upcoming piano recital. Each student performs one piece, and no two performances overlap. The following constraints apply: Ginny must perform earlier than Fernando. Kevin must perform earlier than Hakim and Juanita. Hakim must perform either immediately before or immediately after Fernando.",
+        "conclusion": "If Juanita performs earlier than Ginny, then Juanita could perform third.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A closet contains exactly six hangers\u20141, 2, 3, 4, 5, and 6\u2014hanging, in that order, from left to right. It also contains exactly six dresses\u2014one gauze, one linen, one polyester, one rayon, one silk, and one wool\u2014a different dress on each of the hangers, in an order satisfying the following conditions: The gauze dress is on a lower-numbered hanger than the polyester dress. The rayon dress is on hanger 1 or hanger 6. Either the wool dress or the silk dress is on hanger 3. The linen dress hangs immediately to the right of the silk dress.",
+        "conclusion": "If both the silk dress and the gauze dress are on odd-numbered hangers, then the polyester dress could be on hanger 4.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Each issue of a business newsletter has five slots, numbered 1 through 5. The policy of the newsletter requires that there are at least three features per issue, with each feature completely occupying one or more of the slots. Each feature can be one of four types\u2014finance, industry, marketing, or technology. Any slot not containing a feature contains a graphic. The newsletters policy further requires that each issue be structured as follows: Any feature occupying more than one slot must occupy consecutively numbered slots. If an issue has any finance or technology feature, then a finance or technology feature must occupy slot 1. An issue can have at most one industry feature.",
+        "conclusion": "If an issue of the newsletter has no technology feature and a finance feature occupies both slots 4 and 5, then a finance feature must occupy slot 1.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A street entertainer has six boxes stacked one on top of the other and numbered consecutively 1 through 6, from the lowest box up to the highest. Each box contains a single ball, and each ball is one of three colors\u2014green, red, or white. Onlookers are to guess the color of each ball in each box, given that the following conditions hold: There are more red balls than white balls. There is a box containing a green ball that is lower in the stack than any box that contains a red ball. There is a white ball in a box that is immediately below a box that contains a green ball.",
+        "conclusion": "The ball in box 2 must be the same color as at least one of the other balls.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A closet contains exactly six hangers\u20141, 2, 3, 4, 5, and 6\u2014hanging, in that order, from left to right. It also contains exactly six dresses\u2014one gauze, one linen, one polyester, one rayon, one silk, and one wool\u2014a different dress on each of the hangers, in an order satisfying the following conditions: The gauze dress is on a lower-numbered hanger than the polyester dress. The rayon dress is on hanger 1 or hanger 6. Either the wool dress or the silk dress is on hanger 3. The linen dress hangs immediately to the right of the silk dress.",
+        "conclusion": "If the polyester dress is on hanger 2, then the wool dress must be on hanger 3.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "As part of an open house at a crafts studio, three teachers\u2014Jiang, Kudrow, and Lanning\u2014will give six consecutive presentations on six different subjects. Jiang will present on needlework and origami; Kudrow on pottery, stenciling, and textile making; and Lanning on woodworking. The order of their presentations will meet the following conditions: Kudrow cannot give two presentations in a row. The presentation on stenciling must be given earlier than the one on origami. The presentation on textile making must be given earlier than the one on woodworking.",
+        "conclusion": "If needlework is presented sixth, then pottery is presented fifth.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Eight people\u2014Fiona, George, Harriet, Ingrid, Karl, Manuel, Olivia, and Peter\u2014are sitting, evenly spaced, around a circular picnic table. Any two of them are said to be sitting directly across from one another if and only if there are exactly three other people sitting between them, counting in either direction around the table. The following conditions apply: Fiona sits directly across from George. Harriet sits immediately next to neither Fiona nor Karl. Ingrid sits immediately next to, and immediately clockwise from, Olivia.",
+        "conclusion": "The minimum possible number of people sitting between Ingrid and Manuel, counting clockwise from Ingrid around the table, is zero.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A crew of up to five workers is to install a partition in at most three days. The crew completes five tasks in this order: framing, wallboarding, taping, sanding, priming. The crew is selected from the following list, which specifies exactly the tasks each person can do: George: taping Helena: sanding, priming Inga: framing, priming Kelly: framing, sanding Leanda: wallboarding, taping Maricita: sanding Olaf: wallboarding, priming The following conditions must apply: At least one task is done each day. Taping and priming are done on different days. Each crew member does at least one task during the installation, but no more than one task a day. Each task is done by exactly one worker, completed the day it is started and before the next task begins.",
+        "conclusion": "The list of crew members that cannot be complete and accurate includes George, Helena, Inga, and Leanda.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six petri dishes\u2014labeled dish 1 through dish 6\u2014are to be stored in an otherwise empty refrigerator. There are three available shelves\u2014the bottom shelf, the middle shelf, and the top shelf. The placement of the dishes must be consistent with the following conditions: No more than three dishes are stored on any shelf. Dish 2 is stored at least one shelf above dish 6. Dish 6 is stored either one shelf above or one shelf below dish 5. Dish 1 is not stored on the same shelf as dish 4.",
+        "conclusion": "Exactly two of dish 1, dish 2, and dish 3 could be stored on the middle shelf if they are on the same shelf as each other.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Six park rangers\u2014Jefferson, Koguchi, Larson, Mendez, Olsen, and Pruitt\u2014are each to be assigned to monitor one of three areas\u2014area 1, area 2, and area 3\u2014in a national park. At least one ranger, but no more than three, is assigned to each area. The assignment must conform to the following conditions: Mendez is assigned to area 3. Neither Olsen nor Pruitt is assigned to area 1. Larson is assigned to the same area as either Koguchi or Mendez but not to the same area as both. If Olsen is assigned to area 2, then Jefferson is assigned to the same area as Koguchi; otherwise, Jefferson is assigned to a different area than Koguchi.",
+        "conclusion": "If exactly one ranger is assigned to area 1, then Jefferson must be assigned to area 1.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six members of a skydiving team\u2014Larue, Ohba, Pei, Trevino, Weiss, and Zacny\u2014each dive exactly once, one at a time, from a plane, consistent with the following conditions: Trevino dives from the plane at some time before Weiss does. Larue dives from the plane either first or last. Neither Weiss nor Zacny dives from the plane last. Pei dives from the plane at some time after either Ohba or Larue but not both.",
+        "conclusion": "An accurate list of the members in the order in which they dive from the plane, from first to last, is Larue, Trevino, Pei, Zacny, Weiss, Ohba.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A music store carries exactly ten types of CDs\u2014both new and used of each of jazz, opera, pop, rap, and soul. The store is having a sale on some of these types of CDs. The following conditions must apply: Used pop is on sale; new opera is not. If both types of pop are on sale, then all soul is. If both types of jazz are on sale, then no rap is. If neither type of jazz is on sale, then new pop is. If either type of rap is on sale, then no soul is.",
+        "conclusion": "If exactly four of the five types of used CDs are the only CDs on sale, then it could be true that used rap is not on sale.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of five paralegals\u2014Frank, Gina, Hiro, Kevin, and Laurie\u2014is being assigned to exactly one of three cases\u2014the Raimes, Sicoli, or Thompson case. At least one paralegal will be assigned to each case. The following conditions must apply: Either Frank is assigned to Raimes and Kevin is assigned to Thompson, or Frank is not assigned to Raimes and Kevin is not assigned to Thompson. Either Frank is the sole paralegal assigned to his case or Gina is the sole paralegal assigned to her case, but not both. Hiro is assigned to Sicoli.",
+        "conclusion": "The assignment of paralegals to cases could be Raimes: Kevin, Laurie; Sicoli: Gina, Hiro; Thompson: Frank.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Four employees\u2014Jackson, Larabee, Paulson, and Torillo\u2014are to select from among four offices\u2014W, X, Y, and Z. The order in which they select, from first to fourth, is to be decided by a random drawing. Each employee has ranked the offices from first (highest) to fourth (lowest) as follows: Jackson: Y, X, Z, W Larabee: X, Z, W, Y Paulson: Y, Z, X, W Torillo: X, Y, Z, W The following restrictions must apply: Each employee selects an office that has not been selected previously. Each employee selects only one office. Each employee selects the office that he or she ranks highest among the unselected offices.",
+        "conclusion": "A possible matching of employees with the offices they select is Jackson: Z; Larabee: X; Paulson: W; Torillo: Y.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A florist is filling a customer's order for three bouquets\u2014bouquet 1, bouquet 2, and bouquet 3. Each of the bouquets is to be composed of one or more of five kinds of flowers\u2014lilies, peonies, roses, snapdragons, and tulips\u2014subject to the following conditions: Bouquets 1 and 3 cannot have any kind of flower in common. Bouquets 2 and 3 must have exactly two kinds of flowers in common. Bouquet 3 must have snapdragons. If a bouquet has lilies, that bouquet must also have roses but cannot have snapdragons. If a bouquet has tulips, that bouquet must also have peonies.",
+        "conclusion": "If tulips are in bouquet 1, a complete and accurate list of the kinds of flowers in bouquet 2 could be peonies, roses, snapdragons, and tulips.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A music store carries exactly ten types of CDs\u2014both new and used of each of jazz, opera, pop, rap, and soul. The store is having a sale on some of these types of CDs. The following conditions must apply: Used pop is on sale; new opera is not. If both types of pop are on sale, then all soul is. If both types of jazz are on sale, then no rap is. If neither type of jazz is on sale, then new pop is. If either type of rap is on sale, then no soul is.",
+        "conclusion": "A complete and accurate list of the types of CDs that are on sale includes used jazz, used pop, new soul, and used soul.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A researcher is studying seven manuscripts\u2014F, G, H, L, M, P, and S\u2014to determine their relative ages. It is known that no two manuscripts were written at the same time. The researcher has also determined the following: H was written earlier than S but later than F. P was the next manuscript written after G. At least four of the manuscripts were written earlier than L. At least four of the manuscripts were written later than M. H was not written fifth.",
+        "conclusion": "If P was written earlier than H, then the only situation that cannot be true is that M was written second.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Seven librarians\u2014Flynn, Gomez, Hill, Kitson, Leung, Moore, and Zahn\u2014are being scheduled for desk duty for one week\u2014Monday through Saturday. The librarians will be on duty exactly one day each. On each day except Saturday, there will be exactly one librarian on duty, with two on duty on Saturday, subject to the following constraints: Hill must be on desk duty earlier in the week than Leung. Both Hill and Moore must be on desk duty earlier in the week than Gomez. Flynn must be on desk duty earlier in the week than both Kitson and Moore. Kitson must be on desk duty earlier in the week than Zahn. Unless Leung is on desk duty on Saturday, Leung must be on desk duty earlier in the week than Flynn.",
+        "conclusion": "Zahn cannot be on desk duty on Tuesday.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Four employees\u2014Jackson, Larabee, Paulson, and Torillo\u2014are to select from among four offices\u2014W, X, Y, and Z. The order in which they select, from first to fourth, is to be decided by a random drawing. Each employee has ranked the offices from first (highest) to fourth (lowest) as follows: Jackson: Y, X, Z, W Larabee: X, Z, W, Y Paulson: Y, Z, X, W Torillo: X, Y, Z, W The following restrictions must apply: Each employee selects an office that has not been selected previously. Each employee selects only one office. Each employee selects the office that he or she ranks highest among the unselected offices.",
+        "conclusion": "If Paulson selects office W, then Larabee could select office Z.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Six park rangers\u2014Jefferson, Koguchi, Larson, Mendez, Olsen, and Pruitt\u2014are each to be assigned to monitor one of three areas\u2014area 1, area 2, and area 3\u2014in a national park. At least one ranger, but no more than three, is assigned to each area. The assignment must conform to the following conditions: Mendez is assigned to area 3. Neither Olsen nor Pruitt is assigned to area 1. Larson is assigned to the same area as either Koguchi or Mendez but not to the same area as both. If Olsen is assigned to area 2, then Jefferson is assigned to the same area as Koguchi; otherwise, Jefferson is assigned to a different area than Koguchi.",
+        "conclusion": "If Larson and Olsen are assigned to the same area, then it could be true that Koguchi is assigned to area 2.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Six park rangers\u2014Jefferson, Koguchi, Larson, Mendez, Olsen, and Pruitt\u2014are each to be assigned to monitor one of three areas\u2014area 1, area 2, and area 3\u2014in a national park. At least one ranger, but no more than three, is assigned to each area. The assignment must conform to the following conditions: Mendez is assigned to area 3. Neither Olsen nor Pruitt is assigned to area 1. Larson is assigned to the same area as either Koguchi or Mendez but not to the same area as both. If Olsen is assigned to area 2, then Jefferson is assigned to the same area as Koguchi; otherwise, Jefferson is assigned to a different area than Koguchi.",
+        "conclusion": "If Koguchi is assigned to area 2, then Jefferson could also be assigned to area 2.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A professor must determine the order in which five of her students\u2014Fernando, Ginny, Hakim, Juanita, and Kevin\u2014will perform in an upcoming piano recital. Each student performs one piece, and no two performances overlap. The following constraints apply: Ginny must perform earlier than Fernando. Kevin must perform earlier than Hakim and Juanita. Hakim must perform either immediately before or immediately after Fernando.",
+        "conclusion": "The order in which the students perform is fully determined if Kevin performs immediately before Fernando.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A florist is filling a customer's order for three bouquets\u2014bouquet 1, bouquet 2, and bouquet 3. Each of the bouquets is to be composed of one or more of five kinds of flowers\u2014lilies, peonies, roses, snapdragons, and tulips\u2014subject to the following conditions: Bouquets 1 and 3 cannot have any kind of flower in common. Bouquets 2 and 3 must have exactly two kinds of flowers in common. Bouquet 3 must have snapdragons. If a bouquet has lilies, that bouquet must also have roses but cannot have snapdragons. If a bouquet has tulips, that bouquet must also have peonies.",
+        "conclusion": "The list of flowers in bouquet 2 cannot be complete and accurate if it only includes lilies and roses.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A researcher is studying seven manuscripts\u2014F, G, H, L, M, P, and S\u2014to determine their relative ages. It is known that no two manuscripts were written at the same time. The researcher has also determined the following: H was written earlier than S but later than F. P was the next manuscript written after G. At least four of the manuscripts were written earlier than L. At least four of the manuscripts were written later than M. H was not written fifth.",
+        "conclusion": "The manuscript that cannot have been written third is M.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "During a single week, from Monday through Friday, tours will be conducted of a company's three divisions\u2014Operations, Production, and Sales. Exactly five tours will be conducted that week, one each day. The schedule of tours for the week must conform to the following restrictions: Each division is toured at least once. The Operations division is not toured on Monday. The Production division is not toured on Wednesday. The Sales division is toured on two consecutive days, and on no other days. If the Operations division is toured on Thursday, then the Production division is toured on Friday.",
+        "conclusion": "It could be true of the week's tour schedule that the Production division is toured on Tuesday and the Sales division is toured on Wednesday if, in addition to the Sales division, one other division is toured on two consecutive days.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A corporation's Human Resources department must determine annual bonuses for seven employees\u2014Kimura, Lopez, Meng, and Peterson, who work in the Finance department; and Vaughan, Xavier, and Zane, who work in the Graphics department. Each employee will receive either a $1,000 bonus, a $3,000 bonus, or a $5,000 bonus, in accordance with the following: No one in the Graphics department receives a $1,000 bonus. Any employee who was rated Highly Effective receives a larger bonus than anyone in his or her department who was not rated Highly Effective. Only Lopez, Meng, and Xavier were rated Highly Effective.",
+        "conclusion": "If Lopez does not receive the same bonus as Meng, it could be true that Lopez receives a $3,000 bonus.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Millville has created three new development zones: Z1, Z2, and Z3. Within these zones, subzones can be designated for housing, industrial, or retail use, with no subzone designated for more than one use. By city regulation, a total of no more than three subzones can be designated for each of the three uses. The following restrictions are in place: Retail subzones are not allowed in Z1. No more than two subzones for housing are allowed in any particular zone. No more than one retail subzone is allowed in any zone in which a subzone is designated for housing. Industrial subzones are not allowed in any zone in which a subzone is designated for housing or three subzones are designated for retail use.",
+        "conclusion": "Three subzones in Z3 are designated for retail use, which is allowed if three subzones are designated for each use.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "An economics department is assigning six teaching assistants\u2014Ramos, Smith, Taj, Vogel, Yi, and Zane\u2014to three courses\u2014Labor, Markets, and Pricing. Each assistant will be assigned to exactly one course, and each course will have at least one assistant assigned to it. The assignment of assistants to courses is subject to the following conditions: Markets must have exactly two assistants assigned to it. Smith and Taj must be assigned to the same course as each other. Vogel and Yi cannot be assigned to the same course as each other. Yi and Zane must both be assigned to Pricing if either one of them is.",
+        "conclusion": "If Vogel is assigned to the same course as Zane, it cannot be true that Taj is assigned to Markets.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "The organizer of a luncheon will select exactly five foods to be served from among exactly eight foods: two desserts\u2014F and G; three main courses\u2014N, O, and P; three side dishes\u2014T, V, and W. Only F, N, and T are hot foods. The following requirements will be satisfied: At least one dessert, at least one main course, and at least one side dish must be selected. At least one hot food must be selected. If either P or W is selected, both must be selected. If G is selected, O must be selected. If N is selected, V cannot be selected.",
+        "conclusion": "If O is the only main course selected, then W cannot be selected.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A corporation's Human Resources department must determine annual bonuses for seven employees\u2014Kimura, Lopez, Meng, and Peterson, who work in the Finance department; and Vaughan, Xavier, and Zane, who work in the Graphics department. Each employee will receive either a $1,000 bonus, a $3,000 bonus, or a $5,000 bonus, in accordance with the following: No one in the Graphics department receives a $1,000 bonus. Any employee who was rated Highly Effective receives a larger bonus than anyone in his or her department who was not rated Highly Effective. Only Lopez, Meng, and Xavier were rated Highly Effective.",
+        "conclusion": "If exactly two of the employees receive $5,000 bonuses, then Peterson must receive a $1,000 bonus.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "There are exactly six computers\u2014P, Q, R, S, T, and U\u2014on a small network. Exactly one of those computers was infected by a virus from outside the network, and that virus was then transmitted between computers on the network. Each computer received the virus exactly once. The following pieces of information concerning the spread of the virus have been established: No computer transmitted the virus to more than two other computers on the network. S transmitted the virus to exactly one other computer on the network. The computer that transmitted the virus to R also transmitted it to S. Either R or T transmitted the virus to Q. Either T or U transmitted the virus to P.",
+        "conclusion": "If P is the only computer that transmitted the virus to two other computers on the network, then R did not transmit the virus to any other computer on the network.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Six park rangers\u2014Jefferson, Koguchi, Larson, Mendez, Olsen, and Pruitt\u2014are each to be assigned to monitor one of three areas\u2014area 1, area 2, and area 3\u2014in a national park. At least one ranger, but no more than three, is assigned to each area. The assignment must conform to the following conditions: Mendez is assigned to area 3. Neither Olsen nor Pruitt is assigned to area 1. Larson is assigned to the same area as either Koguchi or Mendez but not to the same area as both. If Olsen is assigned to area 2, then Jefferson is assigned to the same area as Koguchi; otherwise, Jefferson is assigned to a different area than Koguchi.",
+        "conclusion": "A permissible assignment of rangers to park areas is as follows: area 1 includes Jefferson, Koguchi, and Larson; area 2 includes Olsen and Pruitt; and area 3 includes Mendez.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of seven candidates for the position of judge\u2014Hamadi, Jefferson, Kurtz, Li, McDonnell, Ortiz, and Perkins\u2014will be appointed to an open position on one of two courts\u2014the appellate court or the trial court. There are three open positions on the appellate court and six open positions on the trial court, but not all of them will be filled at this time. The judicial appointments will conform to the following conditions: Li must be appointed to the appellate court. Kurtz must be appointed to the trial court. Hamadi cannot be appointed to the same court as Perkins.",
+        "conclusion": "McDonnell and Ortiz cannot both be appointed to the appellate court.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A company operates vending machines in four schools: Ferndale, Gladstone, Hafford, and Isley. The company delivers juices in one of its two trucks and snacks in the other truck. Each week, exactly one delivery of juices and exactly one delivery of snacks is made to each school, subject to the following conditions: Snacks must be delivered to Ferndale at some time before they are delivered to Hafford. Gladstone cannot be the fourth school to which juices are delivered. Gladstone must be the third school to which snacks are delivered. The first school to which juices are delivered must be the fourth one to which snacks are delivered.",
+        "conclusion": "The condition that the fourth school to which juices are delivered must be either Hafford or Isley has the same effect as the condition that Gladstone cannot be the fourth school to which juices are delivered in determining the delivery schedule.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Four employees\u2014Jackson, Larabee, Paulson, and Torillo\u2014are to select from among four offices\u2014W, X, Y, and Z. The order in which they select, from first to fourth, is to be decided by a random drawing. Each employee has ranked the offices from first (highest) to fourth (lowest) as follows: Jackson: Y, X, Z, W Larabee: X, Z, W, Y Paulson: Y, Z, X, W Torillo: X, Y, Z, W The following restrictions must apply: Each employee selects an office that has not been selected previously. Each employee selects only one office. Each employee selects the office that he or she ranks highest among the unselected offices.",
+        "conclusion": "At least one of the employees must select the office he or she ranks first.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Millville has created three new development zones: Z1, Z2, and Z3. Within these zones, subzones can be designated for housing, industrial, or retail use, with no subzone designated for more than one use. By city regulation, a total of no more than three subzones can be designated for each of the three uses. The following restrictions are in place: Retail subzones are not allowed in Z1. No more than two subzones for housing are allowed in any particular zone. No more than one retail subzone is allowed in any zone in which a subzone is designated for housing. Industrial subzones are not allowed in any zone in which a subzone is designated for housing or three subzones are designated for retail use.",
+        "conclusion": "Within a single zone, it cannot be true that four subzones are designated with none of them being industrial.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Millville has created three new development zones: Z1, Z2, and Z3. Within these zones, subzones can be designated for housing, industrial, or retail use, with no subzone designated for more than one use. By city regulation, a total of no more than three subzones can be designated for each of the three uses. The following restrictions are in place: Retail subzones are not allowed in Z1. No more than two subzones for housing are allowed in any particular zone. No more than one retail subzone is allowed in any zone in which a subzone is designated for housing. Industrial subzones are not allowed in any zone in which a subzone is designated for housing or three subzones are designated for retail use.",
+        "conclusion": "Exactly three subzones each are designated in Z2 and Z3 if one subzone in each of the zones is designated for industrial use.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Eight people\u2014Fiona, George, Harriet, Ingrid, Karl, Manuel, Olivia, and Peter\u2014are sitting, evenly spaced, around a circular picnic table. Any two of them are said to be sitting directly across from one another if and only if there are exactly three other people sitting between them, counting in either direction around the table. The following conditions apply: Fiona sits directly across from George. Harriet sits immediately next to neither Fiona nor Karl. Ingrid sits immediately next to, and immediately clockwise from, Olivia.",
+        "conclusion": "If Manuel sits immediately next to Olivia, then Karl must sit immediately next to Fiona.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of exactly seven professors\u2014Powell, Shihab, Taylor, Vaughan, Wood, Young, and Zabel\u2014gives exactly one guest lecture in the literary theory course. The lectures are ordered from first through seventh, and their order must conform to the following: Powell lectures before Wood. Taylor lectures before Shihab. Vaughan lectures before Zabel. Shihab is no later than third. Young is not seventh. Powell lectures first if, but only if, Young lectures before Vaughan.",
+        "conclusion": "The order in which the professors lecture, from first to last, could be Taylor, Powell, Shihab, Wood, Vaughan, Young, Zabel.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Six park rangers\u2014Jefferson, Koguchi, Larson, Mendez, Olsen, and Pruitt\u2014are each to be assigned to monitor one of three areas\u2014area 1, area 2, and area 3\u2014in a national park. At least one ranger, but no more than three, is assigned to each area. The assignment must conform to the following conditions: Mendez is assigned to area 3. Neither Olsen nor Pruitt is assigned to area 1. Larson is assigned to the same area as either Koguchi or Mendez but not to the same area as both. If Olsen is assigned to area 2, then Jefferson is assigned to the same area as Koguchi; otherwise, Jefferson is assigned to a different area than Koguchi.",
+        "conclusion": "If Jefferson is assigned to area 2, then Koguchi must be assigned to area 1.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "During a single week, from Monday through Friday, tours will be conducted of a company's three divisions\u2014Operations, Production, and Sales. Exactly five tours will be conducted that week, one each day. The schedule of tours for the week must conform to the following restrictions: Each division is toured at least once. The Operations division is not toured on Monday. The Production division is not toured on Wednesday. The Sales division is toured on two consecutive days, and on no other days. If the Operations division is toured on Thursday, then the Production division is toured on Friday.",
+        "conclusion": "If the division that is toured on Tuesday is also toured on Friday, then a tour of the Production division must be scheduled for Monday.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of exactly seven professors\u2014Powell, Shihab, Taylor, Vaughan, Wood, Young, and Zabel\u2014gives exactly one guest lecture in the literary theory course. The lectures are ordered from first through seventh, and their order must conform to the following: Powell lectures before Wood. Taylor lectures before Shihab. Vaughan lectures before Zabel. Shihab is no later than third. Young is not seventh. Powell lectures first if, but only if, Young lectures before Vaughan.",
+        "conclusion": "If Zabel lectures fourth, then it could be true that Powell lectures second.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A researcher is studying seven manuscripts\u2014F, G, H, L, M, P, and S\u2014to determine their relative ages. It is known that no two manuscripts were written at the same time. The researcher has also determined the following: H was written earlier than S but later than F. P was the next manuscript written after G. At least four of the manuscripts were written earlier than L. At least four of the manuscripts were written later than M. H was not written fifth.",
+        "conclusion": "The manuscript that cannot have been written fourth is P.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of exactly seven professors\u2014Powell, Shihab, Taylor, Vaughan, Wood, Young, and Zabel\u2014gives exactly one guest lecture in the literary theory course. The lectures are ordered from first through seventh, and their order must conform to the following: Powell lectures before Wood. Taylor lectures before Shihab. Vaughan lectures before Zabel. Shihab is no later than third. Young is not seventh. Powell lectures first if, but only if, Young lectures before Vaughan.",
+        "conclusion": "The guest lecture that Vaughan cannot give is the sixth one.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A closet contains exactly six hangers\u20141, 2, 3, 4, 5, and 6\u2014hanging, in that order, from left to right. It also contains exactly six dresses\u2014one gauze, one linen, one polyester, one rayon, one silk, and one wool\u2014a different dress on each of the hangers, in an order satisfying the following conditions: The gauze dress is on a lower-numbered hanger than the polyester dress. The rayon dress is on hanger 1 or hanger 6. Either the wool dress or the silk dress is on hanger 3. The linen dress hangs immediately to the right of the silk dress.",
+        "conclusion": "An accurate matching of the hangers to the fabrics of the dresses that hang on them could be: 1: linen, 2: silk, 3: wool, 4: gauze, 5: polyester, and 6: rayon.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A television programming director is scheduling a three-hour block of programs beginning at 1 P.M. The programs that are to fill this time block include an hour-long program called Generations and four half-hour programs: Roamin', Sundown, Terry, and Waterloo. The programs will be shown one after the other, each program shown exactly once. The schedule must meet the following constraints: Generations starts on the hour rather than the half hour. Terry starts on the half hour rather than the hour. Roamin' is shown earlier than Sundown. If Waterloo is shown earlier than Terry, it is shown immediately before Terry.",
+        "conclusion": "There are five orders in which the remaining programs could be shown if Waterloo is the first program.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Four boys\u2014Fred, Juan, Marc, and Paul\u2014and three girls\u2014Nita, Rachel, and Trisha\u2014will be assigned to a row of five adjacent lockers, numbered consecutively 1 through 5, arranged along a straight wall. The following conditions govern the assignment of lockers to the seven children: Each locker must be assigned to either one or two children, and each child must be assigned to exactly one locker. Each shared locker must be assigned to one girl and one boy. Juan must share a locker, but Rachel cannot share a locker. Nita's locker cannot be adjacent to Trisha's locker. Fred must be assigned to locker 3.",
+        "conclusion": "If lockers 1 and 2 are each assigned to one boy and are not shared lockers, then locker 4 must be assigned to Rachel.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each issue of a business newsletter has five slots, numbered 1 through 5. The policy of the newsletter requires that there are at least three features per issue, with each feature completely occupying one or more of the slots. Each feature can be one of four types\u2014finance, industry, marketing, or technology. Any slot not containing a feature contains a graphic. The newsletters policy further requires that each issue be structured as follows: Any feature occupying more than one slot must occupy consecutively numbered slots. If an issue has any finance or technology feature, then a finance or technology feature must occupy slot 1. An issue can have at most one industry feature.",
+        "conclusion": "The feature occupying slot 5 is not allowed for an issue of the newsletter, as each feature except this one is either an industry feature or a marketing feature.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of five paralegals\u2014Frank, Gina, Hiro, Kevin, and Laurie\u2014is being assigned to exactly one of three cases\u2014the Raimes, Sicoli, or Thompson case. At least one paralegal will be assigned to each case. The following conditions must apply: Either Frank is assigned to Raimes and Kevin is assigned to Thompson, or Frank is not assigned to Raimes and Kevin is not assigned to Thompson. Either Frank is the sole paralegal assigned to his case or Gina is the sole paralegal assigned to her case, but not both. Hiro is assigned to Sicoli.",
+        "conclusion": "If Kevin is the sole paralegal assigned to one of the cases, then the list of all the paralegals any one of which could be Kevin consists of Frank and Kevin.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "During the seventeenth century, three families\u2014the Trents, the Williamses, and the Yandells\u2014owned the five buildings that constituted the center of their village\u2014the forge, the granary, the inn, the mill, and the stable. Each family owned at least one of the buildings and each building was owned by exactly one of the families. The historical evidence establishes the following about the ownership of the buildings: The Williamses owned more of the buildings than the Yandells owned. Neither the inn nor the mill belonged to the owner of the forge. Either the Trents owned the stable or the Yandells owned the inn, or both.",
+        "conclusion": "If the Yandells owned the mill, then the Williamses must have owned the granary.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A music store carries exactly ten types of CDs\u2014both new and used of each of jazz, opera, pop, rap, and soul. The store is having a sale on some of these types of CDs. The following conditions must apply: Used pop is on sale; new opera is not. If both types of pop are on sale, then all soul is. If both types of jazz are on sale, then no rap is. If neither type of jazz is on sale, then new pop is. If either type of rap is on sale, then no soul is.",
+        "conclusion": "If both types of jazz are on sale, the minimum number of types of new CDs that could be included in the sale is one.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of the seven members of the board of directors\u2014Guzman, Hawking, Lepp, Miyauchi, Upchurch, Wharton, and Zhu\u2014serves on exactly one of two committees\u2014the finance committee or the incentives committee. Only board members serve on these committees. Committee membership is consistent with the following conditions: If Guzman serves on the finance committee, then Hawking serves on the incentives committee. If Lepp serves on the finance committee, then Miyauchi and Upchurch both serve on the incentives committee. Wharton serves on a different committee from the one on which Zhu serves. Upchurch serves on a different committee from the one on which Guzman serves. If Zhu serves on the finance committee, so does Hawking.",
+        "conclusion": "The maximum number of members on the finance committee is four.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A company operates vending machines in four schools: Ferndale, Gladstone, Hafford, and Isley. The company delivers juices in one of its two trucks and snacks in the other truck. Each week, exactly one delivery of juices and exactly one delivery of snacks is made to each school, subject to the following conditions: Snacks must be delivered to Ferndale at some time before they are delivered to Hafford. Gladstone cannot be the fourth school to which juices are delivered. Gladstone must be the third school to which snacks are delivered. The first school to which juices are delivered must be the fourth one to which snacks are delivered.",
+        "conclusion": "If Isley is the first school to which snacks are delivered, it could be true that Hafford is the second school to which snacks are delivered.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Seven librarians\u2014Flynn, Gomez, Hill, Kitson, Leung, Moore, and Zahn\u2014are being scheduled for desk duty for one week\u2014Monday through Saturday. The librarians will be on duty exactly one day each. On each day except Saturday, there will be exactly one librarian on duty, with two on duty on Saturday, subject to the following constraints: Hill must be on desk duty earlier in the week than Leung. Both Hill and Moore must be on desk duty earlier in the week than Gomez. Flynn must be on desk duty earlier in the week than both Kitson and Moore. Kitson must be on desk duty earlier in the week than Zahn. Unless Leung is on desk duty on Saturday, Leung must be on desk duty earlier in the week than Flynn.",
+        "conclusion": "If Flynn is on desk duty earlier in the week than Hill, then Moore is on desk duty earlier in the week than Leung.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A toy retailer is opening a small satellite store with exactly three aisles, numbered from 1 (lowest) to 3 (highest). Six sections\u2014Fantasy, Hobbies, Music, Puzzles, Reading, and Science\u2014will each be confined to exactly one aisle, with each aisle containing at least one of the sections. The following conditions hold: Reading must be located in the same aisle as either Fantasy or Music. Fantasy must be located in a lower-numbered aisle than both Music and Puzzles. Science must be located in a lower-numbered aisle than Puzzles. Science cannot be located in a lower-numbered aisle than Hobbies.",
+        "conclusion": "The list of sections located in aisle 2 cannot include Hobbies and Music.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A crew of up to five workers is to install a partition in at most three days. The crew completes five tasks in this order: framing, wallboarding, taping, sanding, priming. The crew is selected from the following list, which specifies exactly the tasks each person can do: George: taping Helena: sanding, priming Inga: framing, priming Kelly: framing, sanding Leanda: wallboarding, taping Maricita: sanding Olaf: wallboarding, priming The following conditions must apply: At least one task is done each day. Taping and priming are done on different days. Each crew member does at least one task during the installation, but no more than one task a day. Each task is done by exactly one worker, completed the day it is started and before the next task begins.",
+        "conclusion": "If the installation takes three days, and the same two crew members work on the first and third days, then the pair of crew members who could work on those two days is Helena and Inga.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A landscaper will plant exactly seven trees today\u2014a hickory, a larch, a maple, an oak, a plum, a sycamore, and a walnut. Each tree must be planted on exactly one of three lots\u20141, 2, or 3\u2014in conformity with the following requirements: The trees planted on one lot are the hickory, the oak, and exactly one other tree. The maple is not planted on the same lot as the walnut. Either the larch or the walnut, but not both, is planted on lot 1. Either the maple or the oak, but not both, is planted on lot 2. More trees are planted on lot 3 than on lot 1.",
+        "conclusion": "A complete and accurate list of the trees that could be planted on lot 1 includes the larch, the plum, the sycamore, and the walnut.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six petri dishes\u2014labeled dish 1 through dish 6\u2014are to be stored in an otherwise empty refrigerator. There are three available shelves\u2014the bottom shelf, the middle shelf, and the top shelf. The placement of the dishes must be consistent with the following conditions: No more than three dishes are stored on any shelf. Dish 2 is stored at least one shelf above dish 6. Dish 6 is stored either one shelf above or one shelf below dish 5. Dish 1 is not stored on the same shelf as dish 4.",
+        "conclusion": "If dish 5 is stored on the bottom shelf and exactly two dishes are stored on the middle shelf, then dish 2 and dish 3 must be among the dishes stored on the top shelf.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A street entertainer has six boxes stacked one on top of the other and numbered consecutively 1 through 6, from the lowest box up to the highest. Each box contains a single ball, and each ball is one of three colors\u2014green, red, or white. Onlookers are to guess the color of each ball in each box, given that the following conditions hold: There are more red balls than white balls. There is a box containing a green ball that is lower in the stack than any box that contains a red ball. There is a white ball in a box that is immediately below a box that contains a green ball.",
+        "conclusion": "If boxes 2, 3, and 4 all contain balls that are the same color, then exactly two of the boxes contain a green ball.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A toy retailer is opening a small satellite store with exactly three aisles, numbered from 1 (lowest) to 3 (highest). Six sections\u2014Fantasy, Hobbies, Music, Puzzles, Reading, and Science\u2014will each be confined to exactly one aisle, with each aisle containing at least one of the sections. The following conditions hold: Reading must be located in the same aisle as either Fantasy or Music. Fantasy must be located in a lower-numbered aisle than both Music and Puzzles. Science must be located in a lower-numbered aisle than Puzzles. Science cannot be located in a lower-numbered aisle than Hobbies.",
+        "conclusion": "If aisle 3 contains Puzzles only, then Science is located in aisle 2.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Five students\u2014Manolo, Nadia, Owen, Peng, and Rana\u2014are each to deliver exactly one speech. Speeches are on exactly one of two topics\u2014friendship and liberty. Each student has only one major: two major in geology, two in history, and one in journalism. The following conditions must apply: Exactly two of the students speak on friendship. A geology major and a history major speak on friendship. Manolo speaks on friendship. Rana speaks on liberty. Neither Peng nor Rana is a geology major. Nadia is a geology major.",
+        "conclusion": "If Nadia speaks on friendship, then it must be false that Manolo is a geology major.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "There are exactly six computers\u2014P, Q, R, S, T, and U\u2014on a small network. Exactly one of those computers was infected by a virus from outside the network, and that virus was then transmitted between computers on the network. Each computer received the virus exactly once. The following pieces of information concerning the spread of the virus have been established: No computer transmitted the virus to more than two other computers on the network. S transmitted the virus to exactly one other computer on the network. The computer that transmitted the virus to R also transmitted it to S. Either R or T transmitted the virus to Q. Either T or U transmitted the virus to P.",
+        "conclusion": "The computer that could be the one infected from outside the network is T.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "In one week\u2014Monday through Friday\u2014a library's bookmobile will visit five of the following six neighborhoods\u2014Hidden Hills, Lakeville, Nottingham, Oldtown, Park Plaza, and Sunnyside. Exactly one neighborhood will be visited on each of the five days, and none of the neighborhoods will be visited on more than one day. The bookmobile's schedule must conform to the following conditions: Hidden Hills is visited, but not on Friday. If Oldtown is visited, then it is visited on the day immediately before Hidden Hills is visited. If Lakeville is visited, then it is visited on Wednesday. Nottingham and Sunnyside are both visited, but not on consecutive days.",
+        "conclusion": "The five neighborhoods visited by the bookmobile, in order from Monday through Friday, are Nottingham, Oldtown, Hidden Hills, Sunnyside, and Park Plaza.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Six entertainers\u2014Robinson, Shahpari, Tigay, Wu, Yeaton, and Zane\u2014are being scheduled for the six performances on the opening day of a community festival. Each entertainer will perform at one of six times\u2014in the morning at 9:00 A.M., 10:00 A.M., or 11:00 A.M., or in the afternoon at 2:00 P.M., 3:00 P.M., or 4:00 P.M.\u2014with no two entertainers performing at the same scheduled time. The order in which the entertainers perform is subject to the following constraints: Robinson must perform at some time before Zane. Yeaton's performance must be the next performance after Wu's. Tigay must perform in the afternoon. Zane must perform in the morning.",
+        "conclusion": "Shahpari cannot be scheduled to perform at 10:00 A.M.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of seven candidates for the position of judge\u2014Hamadi, Jefferson, Kurtz, Li, McDonnell, Ortiz, and Perkins\u2014will be appointed to an open position on one of two courts\u2014the appellate court or the trial court. There are three open positions on the appellate court and six open positions on the trial court, but not all of them will be filled at this time. The judicial appointments will conform to the following conditions: Li must be appointed to the appellate court. Kurtz must be appointed to the trial court. Hamadi cannot be appointed to the same court as Perkins.",
+        "conclusion": "The condition that no three of Hamadi, Kurtz, Li, and Perkins can be appointed to the same court would have the same effect on the appointments of the seven candidates as the condition that Hamadi cannot be appointed to the same court as Perkins.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "In one week\u2014Monday through Friday\u2014a library's bookmobile will visit five of the following six neighborhoods\u2014Hidden Hills, Lakeville, Nottingham, Oldtown, Park Plaza, and Sunnyside. Exactly one neighborhood will be visited on each of the five days, and none of the neighborhoods will be visited on more than one day. The bookmobile's schedule must conform to the following conditions: Hidden Hills is visited, but not on Friday. If Oldtown is visited, then it is visited on the day immediately before Hidden Hills is visited. If Lakeville is visited, then it is visited on Wednesday. Nottingham and Sunnyside are both visited, but not on consecutive days.",
+        "conclusion": "Oldtown is the neighborhood that cannot be visited on Thursday.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each issue of a business newsletter has five slots, numbered 1 through 5. The policy of the newsletter requires that there are at least three features per issue, with each feature completely occupying one or more of the slots. Each feature can be one of four types\u2014finance, industry, marketing, or technology. Any slot not containing a feature contains a graphic. The newsletters policy further requires that each issue be structured as follows: Any feature occupying more than one slot must occupy consecutively numbered slots. If an issue has any finance or technology feature, then a finance or technology feature must occupy slot 1. An issue can have at most one industry feature.",
+        "conclusion": "If slot 1 is occupied by the only industry feature in a particular issue of the newsletter, then a marketing feature is required to occupy one or more of slots 2, 3, and 4 in that issue.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Four boys\u2014Fred, Juan, Marc, and Paul\u2014and three girls\u2014Nita, Rachel, and Trisha\u2014will be assigned to a row of five adjacent lockers, numbered consecutively 1 through 5, arranged along a straight wall. The following conditions govern the assignment of lockers to the seven children: Each locker must be assigned to either one or two children, and each child must be assigned to exactly one locker. Each shared locker must be assigned to one girl and one boy. Juan must share a locker, but Rachel cannot share a locker. Nita's locker cannot be adjacent to Trisha's locker. Fred must be assigned to locker 3.",
+        "conclusion": "Once Rachel has been assigned to a locker, the maximum number of different lockers each of which could be the locker to which Juan is assigned is three.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "The organizer of a luncheon will select exactly five foods to be served from among exactly eight foods: two desserts\u2014F and G; three main courses\u2014N, O, and P; three side dishes\u2014T, V, and W. Only F, N, and T are hot foods. The following requirements will be satisfied: At least one dessert, at least one main course, and at least one side dish must be selected. At least one hot food must be selected. If either P or W is selected, both must be selected. If G is selected, O must be selected. If N is selected, V cannot be selected.",
+        "conclusion": "If T and V are the only side dishes selected, the pair of foods that must be selected is F and G.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A record producer is planning the contents of a CD consisting of a sequence of exactly five instrumental pieces\u2014Reciprocity, Salammbo, Trapezoid, Vancouver, and Wisteria. To create and sustain certain moods, the sequence of pieces will satisfy the following constraints: Salammbo must be earlier than Vancouver. Trapezoid must either be earlier than both Reciprocity and Salammbo or later than both Reciprocity and Salammbo. Wisteria must either be earlier than both Reciprocity and Trapezoid or later than both Reciprocity and Trapezoid.",
+        "conclusion": "If Vancouver is the second piece on the CD, then Reciprocity could be the fourth piece on the CD.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each issue of a business newsletter has five slots, numbered 1 through 5. The policy of the newsletter requires that there are at least three features per issue, with each feature completely occupying one or more of the slots. Each feature can be one of four types\u2014finance, industry, marketing, or technology. Any slot not containing a feature contains a graphic. The newsletters policy further requires that each issue be structured as follows: Any feature occupying more than one slot must occupy consecutively numbered slots. If an issue has any finance or technology feature, then a finance or technology feature must occupy slot 1. An issue can have at most one industry feature.",
+        "conclusion": "An allowable structure for an issue of the newsletter consists of slot 1 containing a technology feature, slots 2 and 4 each containing a single marketing feature, slot 3 containing an industry feature, and slot 5 containing a graphic.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A company operates vending machines in four schools: Ferndale, Gladstone, Hafford, and Isley. The company delivers juices in one of its two trucks and snacks in the other truck. Each week, exactly one delivery of juices and exactly one delivery of snacks is made to each school, subject to the following conditions: Snacks must be delivered to Ferndale at some time before they are delivered to Hafford. Gladstone cannot be the fourth school to which juices are delivered. Gladstone must be the third school to which snacks are delivered. The first school to which juices are delivered must be the fourth one to which snacks are delivered.",
+        "conclusion": "If Isley is the third school to which juices are delivered, it could be true that juices are delivered to Gladstone at some time before they are delivered to Hafford.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A music store carries exactly ten types of CDs\u2014both new and used of each of jazz, opera, pop, rap, and soul. The store is having a sale on some of these types of CDs. The following conditions must apply: Used pop is on sale; new opera is not. If both types of pop are on sale, then all soul is. If both types of jazz are on sale, then no rap is. If neither type of jazz is on sale, then new pop is. If either type of rap is on sale, then no soul is.",
+        "conclusion": "It cannot be true that neither type of opera nor either type of soul is on sale.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "There are exactly six computers\u2014P, Q, R, S, T, and U\u2014on a small network. Exactly one of those computers was infected by a virus from outside the network, and that virus was then transmitted between computers on the network. Each computer received the virus exactly once. The following pieces of information concerning the spread of the virus have been established: No computer transmitted the virus to more than two other computers on the network. S transmitted the virus to exactly one other computer on the network. The computer that transmitted the virus to R also transmitted it to S. Either R or T transmitted the virus to Q. Either T or U transmitted the virus to P.",
+        "conclusion": "If T did not transmit the virus to any other computer on the network, then P transmitted the virus to S.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "At a children's festival, exactly four songs are performed, each exactly once: \"Night's All Right,\" \"Question Man,\" \"Rhino Rock,\" and \"Sammy.\" The songs are performed consecutively, each on a different one of exactly four instruments: flute, guitar, harmonica, or keyboard. The songs are performed in accordance with the following: The first song performed is not performed on the flute. If \"Sammy\" is performed on the keyboard, then \"Rhino Rock\" is performed on the harmonica. If \"Question Man\" is performed on the keyboard, then \"Night's All Right\" is performed on the flute. The song performed on the keyboard immediately follows \"Rhino Rock\" and immediately precedes \"Night's All Right.\"",
+        "conclusion": "If 'Rhino Rock' is the second song performed at the festival, it could be true that 'Rhino Rock' is performed on the guitar.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six of eight ceramic bowls, each crafted by exactly one of eight potters\u2014Larsen, Mills, Neiman, Olivera, Park, Reigel, Serra, and Vance\u2014will be displayed in a row in positions consecutively numbered 1 through 6, one bowl per position. The display is subject to the following conditions: If Larsen's bowl is displayed, Mills's bowl cannot be displayed. Park's bowl can be displayed only if it is next to Olivera's bowl and next to Serra's bowl. Reigel's bowl can be displayed only in either position 1 or position 6. Serra's bowl cannot be displayed in either position 2 or position 4. Neiman's bowl can be displayed only in position 5.",
+        "conclusion": "If Larsen's bowl is in position 6 and Olivera's bowl is in position 2, then Vance's bowl must be displayed in position 3.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A street entertainer has six boxes stacked one on top of the other and numbered consecutively 1 through 6, from the lowest box up to the highest. Each box contains a single ball, and each ball is one of three colors\u2014green, red, or white. Onlookers are to guess the color of each ball in each box, given that the following conditions hold: There are more red balls than white balls. There is a box containing a green ball that is lower in the stack than any box that contains a red ball. There is a white ball in a box that is immediately below a box that contains a green ball.",
+        "conclusion": "If there are red balls in boxes 2 and 3, then it could be true that there is a red ball in box 1.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A toy retailer is opening a small satellite store with exactly three aisles, numbered from 1 (lowest) to 3 (highest). Six sections\u2014Fantasy, Hobbies, Music, Puzzles, Reading, and Science\u2014will each be confined to exactly one aisle, with each aisle containing at least one of the sections. The following conditions hold: Reading must be located in the same aisle as either Fantasy or Music. Fantasy must be located in a lower-numbered aisle than both Music and Puzzles. Science must be located in a lower-numbered aisle than Puzzles. Science cannot be located in a lower-numbered aisle than Hobbies.",
+        "conclusion": "If aisle 2 contains Science only, it does not necessarily mean that Reading is located in aisle 1.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "There are exactly six computers\u2014P, Q, R, S, T, and U\u2014on a small network. Exactly one of those computers was infected by a virus from outside the network, and that virus was then transmitted between computers on the network. Each computer received the virus exactly once. The following pieces of information concerning the spread of the virus have been established: No computer transmitted the virus to more than two other computers on the network. S transmitted the virus to exactly one other computer on the network. The computer that transmitted the virus to R also transmitted it to S. Either R or T transmitted the virus to Q. Either T or U transmitted the virus to P.",
+        "conclusion": "All of the computers could have transmitted the virus to two other computers on the network except computer R.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly five volunteers\u2014Haddad, Joslin, Kwon, Molina, and Nash\u2014are being assigned to three community committees\u2014X, Y, and Z. Each committee will have three volunteers assigned to it, with each volunteer on a committee holding exactly one of three positions\u2014leader, secretary, or treasurer. The following conditions apply: If Nash is assigned to a committee, Nash must be the leader for that committee. Molina must be assigned to exactly one committee. Kwon must be assigned to Y but cannot be assigned to Z. Joslin must be the secretary for Y but cannot be assigned to X or Z.",
+        "conclusion": "If Kwon is assigned to be leader for exactly one of the committees, then the assignment of volunteers to positions is fully determined for committee Y only.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly five volunteers\u2014Haddad, Joslin, Kwon, Molina, and Nash\u2014are being assigned to three community committees\u2014X, Y, and Z. Each committee will have three volunteers assigned to it, with each volunteer on a committee holding exactly one of three positions\u2014leader, secretary, or treasurer. The following conditions apply: If Nash is assigned to a committee, Nash must be the leader for that committee. Molina must be assigned to exactly one committee. Kwon must be assigned to Y but cannot be assigned to Z. Joslin must be the secretary for Y but cannot be assigned to X or Z.",
+        "conclusion": "Each of the statements must be true except that Molina is assigned to Z.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Four employees\u2014Jackson, Larabee, Paulson, and Torillo\u2014are to select from among four offices\u2014W, X, Y, and Z. The order in which they select, from first to fourth, is to be decided by a random drawing. Each employee has ranked the offices from first (highest) to fourth (lowest) as follows: Jackson: Y, X, Z, W Larabee: X, Z, W, Y Paulson: Y, Z, X, W Torillo: X, Y, Z, W The following restrictions must apply: Each employee selects an office that has not been selected previously. Each employee selects only one office. Each employee selects the office that he or she ranks highest among the unselected offices.",
+        "conclusion": "Exactly three of the employees could each select the office he or she ranks third.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly five volunteers\u2014Haddad, Joslin, Kwon, Molina, and Nash\u2014are being assigned to three community committees\u2014X, Y, and Z. Each committee will have three volunteers assigned to it, with each volunteer on a committee holding exactly one of three positions\u2014leader, secretary, or treasurer. The following conditions apply: If Nash is assigned to a committee, Nash must be the leader for that committee. Molina must be assigned to exactly one committee. Kwon must be assigned to Y but cannot be assigned to Z. Joslin must be the secretary for Y but cannot be assigned to X or Z.",
+        "conclusion": "The assignment of volunteers to Z could be Haddad as leader, Molina as secretary, and Joslin as treasurer.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "At a business symposium there will be exactly five speakers: Long, Molina, Xiao, Yoshida, and Zimmerman. Each speaker will give exactly one speech, in either the Gold Room or the Rose Room. In each room, there will be exactly one speech at 1 P.M. and one speech at 2 P.M. In one of the rooms, yet to be determined, there will also be a speech at 3 P.M. The schedule of speeches is constrained by the following: Molina's speech must be earlier than Long's, and in the same room. Neither Xiao's speech nor Yoshida's speech can be earlier than Zimmerman's. If Long's speech is in the Gold Room, then Xiao's and Zimmerman's speeches must both be in the Rose Room.",
+        "conclusion": "Substituting the constraint that Long's speech must be at 3 P.M. has the same effect as the original constraint that neither Xiao's speech nor Yoshida's speech can be earlier than Zimmerman's.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A professor must determine the order in which five of her students\u2014Fernando, Ginny, Hakim, Juanita, and Kevin\u2014will perform in an upcoming piano recital. Each student performs one piece, and no two performances overlap. The following constraints apply: Ginny must perform earlier than Fernando. Kevin must perform earlier than Hakim and Juanita. Hakim must perform either immediately before or immediately after Fernando.",
+        "conclusion": "The order in which the students perform from first to last could be Kevin, Ginny, Juanita, Fernando, Hakim.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A company's six vehicles\u2014a hatchback, a limousine, a pickup, a roadster, a sedan, and a van\u2014are serviced during a certain week\u2014Monday through Saturday\u2014one vehicle per day. The following conditions must apply: At least one of the vehicles is serviced later in the week than the hatchback. The roadster is serviced later in the week than the van and earlier in the week than the hatchback. Either the pickup and the van are serviced on consecutive days, or the pickup and the sedan are serviced on consecutive days, but not both. The sedan is serviced earlier in the week than the pickup or earlier in the week than the limousine, but not both.",
+        "conclusion": "If the limousine is serviced on Saturday, then the hatchback and the limousine must be serviced on consecutive days.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A company operates vending machines in four schools: Ferndale, Gladstone, Hafford, and Isley. The company delivers juices in one of its two trucks and snacks in the other truck. Each week, exactly one delivery of juices and exactly one delivery of snacks is made to each school, subject to the following conditions: Snacks must be delivered to Ferndale at some time before they are delivered to Hafford. Gladstone cannot be the fourth school to which juices are delivered. Gladstone must be the third school to which snacks are delivered. The first school to which juices are delivered must be the fourth one to which snacks are delivered.",
+        "conclusion": "The schedule of deliveries to the schools, from the first to the fourth, could be Juices to Hafford, Ferndale, Gladstone, Isley and Snacks to Ferndale, Isley, Gladstone, Hafford.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "There are exactly six computers\u2014P, Q, R, S, T, and U\u2014on a small network. Exactly one of those computers was infected by a virus from outside the network, and that virus was then transmitted between computers on the network. Each computer received the virus exactly once. The following pieces of information concerning the spread of the virus have been established: No computer transmitted the virus to more than two other computers on the network. S transmitted the virus to exactly one other computer on the network. The computer that transmitted the virus to R also transmitted it to S. Either R or T transmitted the virus to Q. Either T or U transmitted the virus to P.",
+        "conclusion": "One possible route of the virus from the first computer in the network infected to Q is from U to P to R to Q.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Eight people\u2014Fiona, George, Harriet, Ingrid, Karl, Manuel, Olivia, and Peter\u2014are sitting, evenly spaced, around a circular picnic table. Any two of them are said to be sitting directly across from one another if and only if there are exactly three other people sitting between them, counting in either direction around the table. The following conditions apply: Fiona sits directly across from George. Harriet sits immediately next to neither Fiona nor Karl. Ingrid sits immediately next to, and immediately clockwise from, Olivia.",
+        "conclusion": "If Karl sits directly across from Ingrid, then George cannot sit immediately next to Olivia.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A company's six vehicles\u2014a hatchback, a limousine, a pickup, a roadster, a sedan, and a van\u2014are serviced during a certain week\u2014Monday through Saturday\u2014one vehicle per day. The following conditions must apply: At least one of the vehicles is serviced later in the week than the hatchback. The roadster is serviced later in the week than the van and earlier in the week than the hatchback. Either the pickup and the van are serviced on consecutive days, or the pickup and the sedan are serviced on consecutive days, but not both. The sedan is serviced earlier in the week than the pickup or earlier in the week than the limousine, but not both.",
+        "conclusion": "The order in which the vehicles are serviced from Monday through Saturday could be the pickup, the van, the sedan, the roadster, the limousine, and the hatchback.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A company's six vehicles\u2014a hatchback, a limousine, a pickup, a roadster, a sedan, and a van\u2014are serviced during a certain week\u2014Monday through Saturday\u2014one vehicle per day. The following conditions must apply: At least one of the vehicles is serviced later in the week than the hatchback. The roadster is serviced later in the week than the van and earlier in the week than the hatchback. Either the pickup and the van are serviced on consecutive days, or the pickup and the sedan are serviced on consecutive days, but not both. The sedan is serviced earlier in the week than the pickup or earlier in the week than the limousine, but not both.",
+        "conclusion": "If neither the pickup nor the limousine is serviced on Monday, then the van must be serviced on Monday.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A company's six vehicles\u2014a hatchback, a limousine, a pickup, a roadster, a sedan, and a van\u2014are serviced during a certain week\u2014Monday through Saturday\u2014one vehicle per day. The following conditions must apply: At least one of the vehicles is serviced later in the week than the hatchback. The roadster is serviced later in the week than the van and earlier in the week than the hatchback. Either the pickup and the van are serviced on consecutive days, or the pickup and the sedan are serviced on consecutive days, but not both. The sedan is serviced earlier in the week than the pickup or earlier in the week than the limousine, but not both.",
+        "conclusion": "If the sedan is serviced earlier in the week than the pickup, then the limousine could be serviced on Wednesday.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Eight people\u2014Fiona, George, Harriet, Ingrid, Karl, Manuel, Olivia, and Peter\u2014are sitting, evenly spaced, around a circular picnic table. Any two of them are said to be sitting directly across from one another if and only if there are exactly three other people sitting between them, counting in either direction around the table. The following conditions apply: Fiona sits directly across from George. Harriet sits immediately next to neither Fiona nor Karl. Ingrid sits immediately next to, and immediately clockwise from, Olivia.",
+        "conclusion": "If George does not sit immediately next to Harriet, then the two people who could each sit immediately next to Manuel are Fiona and Harriet.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Five students\u2014Manolo, Nadia, Owen, Peng, and Rana\u2014are each to deliver exactly one speech. Speeches are on exactly one of two topics\u2014friendship and liberty. Each student has only one major: two major in geology, two in history, and one in journalism. The following conditions must apply: Exactly two of the students speak on friendship. A geology major and a history major speak on friendship. Manolo speaks on friendship. Rana speaks on liberty. Neither Peng nor Rana is a geology major. Nadia is a geology major.",
+        "conclusion": "A possible list of the majors for Manolo, Nadia, Owen, Peng, and Rana, respectively, is history, history, geology, journalism, history.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A television programming director is scheduling a three-hour block of programs beginning at 1 P.M. The programs that are to fill this time block include an hour-long program called Generations and four half-hour programs: Roamin', Sundown, Terry, and Waterloo. The programs will be shown one after the other, each program shown exactly once. The schedule must meet the following constraints: Generations starts on the hour rather than the half hour. Terry starts on the half hour rather than the hour. Roamin' is shown earlier than Sundown. If Waterloo is shown earlier than Terry, it is shown immediately before Terry.",
+        "conclusion": "The order in which the programs are shown, from earliest to latest, could be Roamin', Terry, Waterloo, Generations, Sundown.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of five paralegals\u2014Frank, Gina, Hiro, Kevin, and Laurie\u2014is being assigned to exactly one of three cases\u2014the Raimes, Sicoli, or Thompson case. At least one paralegal will be assigned to each case. The following conditions must apply: Either Frank is assigned to Raimes and Kevin is assigned to Thompson, or Frank is not assigned to Raimes and Kevin is not assigned to Thompson. Either Frank is the sole paralegal assigned to his case or Gina is the sole paralegal assigned to her case, but not both. Hiro is assigned to Sicoli.",
+        "conclusion": "The complete assignment of paralegals to the Sicoli case cannot be Hiro, Kevin, and Laurie.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Six entertainers\u2014Robinson, Shahpari, Tigay, Wu, Yeaton, and Zane\u2014are being scheduled for the six performances on the opening day of a community festival. Each entertainer will perform at one of six times\u2014in the morning at 9:00 A.M., 10:00 A.M., or 11:00 A.M., or in the afternoon at 2:00 P.M., 3:00 P.M., or 4:00 P.M.\u2014with no two entertainers performing at the same scheduled time. The order in which the entertainers perform is subject to the following constraints: Robinson must perform at some time before Zane. Yeaton's performance must be the next performance after Wu's. Tigay must perform in the afternoon. Zane must perform in the morning.",
+        "conclusion": "If Wu is scheduled to perform in the morning, then Robinson could be scheduled to perform at 10:00 A.M.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A toy retailer is opening a small satellite store with exactly three aisles, numbered from 1 (lowest) to 3 (highest). Six sections\u2014Fantasy, Hobbies, Music, Puzzles, Reading, and Science\u2014will each be confined to exactly one aisle, with each aisle containing at least one of the sections. The following conditions hold: Reading must be located in the same aisle as either Fantasy or Music. Fantasy must be located in a lower-numbered aisle than both Music and Puzzles. Science must be located in a lower-numbered aisle than Puzzles. Science cannot be located in a lower-numbered aisle than Hobbies.",
+        "conclusion": "If each aisle contains exactly two of the six sections, then Science must be located in the same aisle as Reading.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of the seven members of the board of directors\u2014Guzman, Hawking, Lepp, Miyauchi, Upchurch, Wharton, and Zhu\u2014serves on exactly one of two committees\u2014the finance committee or the incentives committee. Only board members serve on these committees. Committee membership is consistent with the following conditions: If Guzman serves on the finance committee, then Hawking serves on the incentives committee. If Lepp serves on the finance committee, then Miyauchi and Upchurch both serve on the incentives committee. Wharton serves on a different committee from the one on which Zhu serves. Upchurch serves on a different committee from the one on which Guzman serves. If Zhu serves on the finance committee, so does Hawking.",
+        "conclusion": "A complete and accurate list of the members of the finance committee could be Hawking, Miyauchi, Zhu.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six members of a skydiving team\u2014Larue, Ohba, Pei, Trevino, Weiss, and Zacny\u2014each dive exactly once, one at a time, from a plane, consistent with the following conditions: Trevino dives from the plane at some time before Weiss does. Larue dives from the plane either first or last. Neither Weiss nor Zacny dives from the plane last. Pei dives from the plane at some time after either Ohba or Larue but not both.",
+        "conclusion": "If Zacny dives from the plane immediately after Weiss, then it must be false that Pei dives from the plane fourth.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "The organizer of a luncheon will select exactly five foods to be served from among exactly eight foods: two desserts\u2014F and G; three main courses\u2014N, O, and P; three side dishes\u2014T, V, and W. Only F, N, and T are hot foods. The following requirements will be satisfied: At least one dessert, at least one main course, and at least one side dish must be selected. At least one hot food must be selected. If either P or W is selected, both must be selected. If G is selected, O must be selected. If N is selected, V cannot be selected.",
+        "conclusion": "The organizer of the luncheon must select at least one food from the pair F, T.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Five students\u2014Manolo, Nadia, Owen, Peng, and Rana\u2014are each to deliver exactly one speech. Speeches are on exactly one of two topics\u2014friendship and liberty. Each student has only one major: two major in geology, two in history, and one in journalism. The following conditions must apply: Exactly two of the students speak on friendship. A geology major and a history major speak on friendship. Manolo speaks on friendship. Rana speaks on liberty. Neither Peng nor Rana is a geology major. Nadia is a geology major.",
+        "conclusion": "If Peng speaks on friendship, then it could be true that Owen is a journalism major.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Six entertainers\u2014Robinson, Shahpari, Tigay, Wu, Yeaton, and Zane\u2014are being scheduled for the six performances on the opening day of a community festival. Each entertainer will perform at one of six times\u2014in the morning at 9:00 A.M., 10:00 A.M., or 11:00 A.M., or in the afternoon at 2:00 P.M., 3:00 P.M., or 4:00 P.M.\u2014with no two entertainers performing at the same scheduled time. The order in which the entertainers perform is subject to the following constraints: Robinson must perform at some time before Zane. Yeaton's performance must be the next performance after Wu's. Tigay must perform in the afternoon. Zane must perform in the morning.",
+        "conclusion": "The earliest time that Wu could be scheduled to perform is 11:00 A.M.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A closet contains exactly six hangers\u20141, 2, 3, 4, 5, and 6\u2014hanging, in that order, from left to right. It also contains exactly six dresses\u2014one gauze, one linen, one polyester, one rayon, one silk, and one wool\u2014a different dress on each of the hangers, in an order satisfying the following conditions: The gauze dress is on a lower-numbered hanger than the polyester dress. The rayon dress is on hanger 1 or hanger 6. Either the wool dress or the silk dress is on hanger 3. The linen dress hangs immediately to the right of the silk dress.",
+        "conclusion": "The silk dress cannot hang immediately next to the rayon dress.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A landscaper will plant exactly seven trees today\u2014a hickory, a larch, a maple, an oak, a plum, a sycamore, and a walnut. Each tree must be planted on exactly one of three lots\u20141, 2, or 3\u2014in conformity with the following requirements: The trees planted on one lot are the hickory, the oak, and exactly one other tree. The maple is not planted on the same lot as the walnut. Either the larch or the walnut, but not both, is planted on lot 1. Either the maple or the oak, but not both, is planted on lot 2. More trees are planted on lot 3 than on lot 1.",
+        "conclusion": "If the walnut is planted on lot 3, then it could be true that the sycamore is planted on lot 1.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Seven librarians\u2014Flynn, Gomez, Hill, Kitson, Leung, Moore, and Zahn\u2014are being scheduled for desk duty for one week\u2014Monday through Saturday. The librarians will be on duty exactly one day each. On each day except Saturday, there will be exactly one librarian on duty, with two on duty on Saturday, subject to the following constraints: Hill must be on desk duty earlier in the week than Leung. Both Hill and Moore must be on desk duty earlier in the week than Gomez. Flynn must be on desk duty earlier in the week than both Kitson and Moore. Kitson must be on desk duty earlier in the week than Zahn. Unless Leung is on desk duty on Saturday, Leung must be on desk duty earlier in the week than Flynn.",
+        "conclusion": "If Zahn is on desk duty on Thursday, then Kitson is on desk duty earlier in the week than Moore.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six petri dishes\u2014labeled dish 1 through dish 6\u2014are to be stored in an otherwise empty refrigerator. There are three available shelves\u2014the bottom shelf, the middle shelf, and the top shelf. The placement of the dishes must be consistent with the following conditions: No more than three dishes are stored on any shelf. Dish 2 is stored at least one shelf above dish 6. Dish 6 is stored either one shelf above or one shelf below dish 5. Dish 1 is not stored on the same shelf as dish 4.",
+        "conclusion": "If dish 6 is the only dish stored on the bottom shelf, dish 4 and dish 5 could be the list of dishes that are stored together on the middle shelf.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Four boys\u2014Fred, Juan, Marc, and Paul\u2014and three girls\u2014Nita, Rachel, and Trisha\u2014will be assigned to a row of five adjacent lockers, numbered consecutively 1 through 5, arranged along a straight wall. The following conditions govern the assignment of lockers to the seven children: Each locker must be assigned to either one or two children, and each child must be assigned to exactly one locker. Each shared locker must be assigned to one girl and one boy. Juan must share a locker, but Rachel cannot share a locker. Nita's locker cannot be adjacent to Trisha's locker. Fred must be assigned to locker 3.",
+        "conclusion": "The complete and accurate list of the children who must be among those assigned to shared lockers includes Juan, Nita, and Trisha.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A landscaper will plant exactly seven trees today\u2014a hickory, a larch, a maple, an oak, a plum, a sycamore, and a walnut. Each tree must be planted on exactly one of three lots\u20141, 2, or 3\u2014in conformity with the following requirements: The trees planted on one lot are the hickory, the oak, and exactly one other tree. The maple is not planted on the same lot as the walnut. Either the larch or the walnut, but not both, is planted on lot 1. Either the maple or the oak, but not both, is planted on lot 2. More trees are planted on lot 3 than on lot 1.",
+        "conclusion": "The list of trees that the landscaper plants on each of the lots today includes the maple on lot 1, the hickory, the larch, and the oak on lot 2, and the plum, the sycamore, and the walnut on lot 3.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "An economics department is assigning six teaching assistants\u2014Ramos, Smith, Taj, Vogel, Yi, and Zane\u2014to three courses\u2014Labor, Markets, and Pricing. Each assistant will be assigned to exactly one course, and each course will have at least one assistant assigned to it. The assignment of assistants to courses is subject to the following conditions: Markets must have exactly two assistants assigned to it. Smith and Taj must be assigned to the same course as each other. Vogel and Yi cannot be assigned to the same course as each other. Yi and Zane must both be assigned to Pricing if either one of them is.",
+        "conclusion": "The complete assignment of assistants to Pricing could be Smith, Taj, Yi, and Zane.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Six park rangers\u2014Jefferson, Koguchi, Larson, Mendez, Olsen, and Pruitt\u2014are each to be assigned to monitor one of three areas\u2014area 1, area 2, and area 3\u2014in a national park. At least one ranger, but no more than three, is assigned to each area. The assignment must conform to the following conditions: Mendez is assigned to area 3. Neither Olsen nor Pruitt is assigned to area 1. Larson is assigned to the same area as either Koguchi or Mendez but not to the same area as both. If Olsen is assigned to area 2, then Jefferson is assigned to the same area as Koguchi; otherwise, Jefferson is assigned to a different area than Koguchi.",
+        "conclusion": "Koguchi cannot be assigned to area 3 among the following rangers.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "There are exactly six computers\u2014P, Q, R, S, T, and U\u2014on a small network. Exactly one of those computers was infected by a virus from outside the network, and that virus was then transmitted between computers on the network. Each computer received the virus exactly once. The following pieces of information concerning the spread of the virus have been established: No computer transmitted the virus to more than two other computers on the network. S transmitted the virus to exactly one other computer on the network. The computer that transmitted the virus to R also transmitted it to S. Either R or T transmitted the virus to Q. Either T or U transmitted the virus to P.",
+        "conclusion": "The spread of the virus among the computers is completely determined if U transmitted the virus to P.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "During the seventeenth century, three families\u2014the Trents, the Williamses, and the Yandells\u2014owned the five buildings that constituted the center of their village\u2014the forge, the granary, the inn, the mill, and the stable. Each family owned at least one of the buildings and each building was owned by exactly one of the families. The historical evidence establishes the following about the ownership of the buildings: The Williamses owned more of the buildings than the Yandells owned. Neither the inn nor the mill belonged to the owner of the forge. Either the Trents owned the stable or the Yandells owned the inn, or both.",
+        "conclusion": "The granary and the stable are a pair of buildings that cannot both have been owned by the Trents.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six petri dishes\u2014labeled dish 1 through dish 6\u2014are to be stored in an otherwise empty refrigerator. There are three available shelves\u2014the bottom shelf, the middle shelf, and the top shelf. The placement of the dishes must be consistent with the following conditions: No more than three dishes are stored on any shelf. Dish 2 is stored at least one shelf above dish 6. Dish 6 is stored either one shelf above or one shelf below dish 5. Dish 1 is not stored on the same shelf as dish 4.",
+        "conclusion": "If exactly one of the dishes is stored on the middle shelf, the dishes that could be stored on the top shelf are dish 2 and dish 3.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of five paralegals\u2014Frank, Gina, Hiro, Kevin, and Laurie\u2014is being assigned to exactly one of three cases\u2014the Raimes, Sicoli, or Thompson case. At least one paralegal will be assigned to each case. The following conditions must apply: Either Frank is assigned to Raimes and Kevin is assigned to Thompson, or Frank is not assigned to Raimes and Kevin is not assigned to Thompson. Either Frank is the sole paralegal assigned to his case or Gina is the sole paralegal assigned to her case, but not both. Hiro is assigned to Sicoli.",
+        "conclusion": "If exactly two of the paralegals are assigned to the Thompson case, then Gina could be the complete assignment of paralegals to the Raimes case.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of the seven members of the board of directors\u2014Guzman, Hawking, Lepp, Miyauchi, Upchurch, Wharton, and Zhu\u2014serves on exactly one of two committees\u2014the finance committee or the incentives committee. Only board members serve on these committees. Committee membership is consistent with the following conditions: If Guzman serves on the finance committee, then Hawking serves on the incentives committee. If Lepp serves on the finance committee, then Miyauchi and Upchurch both serve on the incentives committee. Wharton serves on a different committee from the one on which Zhu serves. Upchurch serves on a different committee from the one on which Guzman serves. If Zhu serves on the finance committee, so does Hawking.",
+        "conclusion": "If Guzman serves on the incentives committee, then Lepp must serve on the incentives committee.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A corporation's Human Resources department must determine annual bonuses for seven employees\u2014Kimura, Lopez, Meng, and Peterson, who work in the Finance department; and Vaughan, Xavier, and Zane, who work in the Graphics department. Each employee will receive either a $1,000 bonus, a $3,000 bonus, or a $5,000 bonus, in accordance with the following: No one in the Graphics department receives a $1,000 bonus. Any employee who was rated Highly Effective receives a larger bonus than anyone in his or her department who was not rated Highly Effective. Only Lopez, Meng, and Xavier were rated Highly Effective.",
+        "conclusion": "The statement that the same number of employees receive $1,000 bonuses as receive $3,000 bonuses is the one that could not be true for the seven employees.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "At a business symposium there will be exactly five speakers: Long, Molina, Xiao, Yoshida, and Zimmerman. Each speaker will give exactly one speech, in either the Gold Room or the Rose Room. In each room, there will be exactly one speech at 1 P.M. and one speech at 2 P.M. In one of the rooms, yet to be determined, there will also be a speech at 3 P.M. The schedule of speeches is constrained by the following: Molina's speech must be earlier than Long's, and in the same room. Neither Xiao's speech nor Yoshida's speech can be earlier than Zimmerman's. If Long's speech is in the Gold Room, then Xiao's and Zimmerman's speeches must both be in the Rose Room.",
+        "conclusion": "If Xiao's speech is at 3 P.M., Long's speech cannot be in the same room as Yoshida's.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Millville has created three new development zones: Z1, Z2, and Z3. Within these zones, subzones can be designated for housing, industrial, or retail use, with no subzone designated for more than one use. By city regulation, a total of no more than three subzones can be designated for each of the three uses. The following restrictions are in place: Retail subzones are not allowed in Z1. No more than two subzones for housing are allowed in any particular zone. No more than one retail subzone is allowed in any zone in which a subzone is designated for housing. Industrial subzones are not allowed in any zone in which a subzone is designated for housing or three subzones are designated for retail use.",
+        "conclusion": "If three subzones in all are designated for retail use and a subzone in Z2 is designated for housing, then two subzones in Z1 are designated for housing.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "In one week\u2014Monday through Friday\u2014a library's bookmobile will visit five of the following six neighborhoods\u2014Hidden Hills, Lakeville, Nottingham, Oldtown, Park Plaza, and Sunnyside. Exactly one neighborhood will be visited on each of the five days, and none of the neighborhoods will be visited on more than one day. The bookmobile's schedule must conform to the following conditions: Hidden Hills is visited, but not on Friday. If Oldtown is visited, then it is visited on the day immediately before Hidden Hills is visited. If Lakeville is visited, then it is visited on Wednesday. Nottingham and Sunnyside are both visited, but not on consecutive days.",
+        "conclusion": "If Nottingham is visited on Thursday, then Park Plaza is visited on Friday.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "The organizer of a luncheon will select exactly five foods to be served from among exactly eight foods: two desserts\u2014F and G; three main courses\u2014N, O, and P; three side dishes\u2014T, V, and W. Only F, N, and T are hot foods. The following requirements will be satisfied: At least one dessert, at least one main course, and at least one side dish must be selected. At least one hot food must be selected. If either P or W is selected, both must be selected. If G is selected, O must be selected. If N is selected, V cannot be selected.",
+        "conclusion": "The list of foods that could be selected includes G, N, P, T, and W.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly five volunteers\u2014Haddad, Joslin, Kwon, Molina, and Nash\u2014are being assigned to three community committees\u2014X, Y, and Z. Each committee will have three volunteers assigned to it, with each volunteer on a committee holding exactly one of three positions\u2014leader, secretary, or treasurer. The following conditions apply: If Nash is assigned to a committee, Nash must be the leader for that committee. Molina must be assigned to exactly one committee. Kwon must be assigned to Y but cannot be assigned to Z. Joslin must be the secretary for Y but cannot be assigned to X or Z.",
+        "conclusion": "If Kwon is assigned to be treasurer for exactly two of the committees, then Nash cannot be assigned to be leader for Y.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "An economics department is assigning six teaching assistants\u2014Ramos, Smith, Taj, Vogel, Yi, and Zane\u2014to three courses\u2014Labor, Markets, and Pricing. Each assistant will be assigned to exactly one course, and each course will have at least one assistant assigned to it. The assignment of assistants to courses is subject to the following conditions: Markets must have exactly two assistants assigned to it. Smith and Taj must be assigned to the same course as each other. Vogel and Yi cannot be assigned to the same course as each other. Yi and Zane must both be assigned to Pricing if either one of them is.",
+        "conclusion": "If no other assistant is assigned to the same course as Ramos, Zane must be assigned to Markets.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly five volunteers\u2014Haddad, Joslin, Kwon, Molina, and Nash\u2014are being assigned to three community committees\u2014X, Y, and Z. Each committee will have three volunteers assigned to it, with each volunteer on a committee holding exactly one of three positions\u2014leader, secretary, or treasurer. The following conditions apply: If Nash is assigned to a committee, Nash must be the leader for that committee. Molina must be assigned to exactly one committee. Kwon must be assigned to Y but cannot be assigned to Z. Joslin must be the secretary for Y but cannot be assigned to X or Z.",
+        "conclusion": "The assignment of volunteers to committees and positions is fully determined if Haddad is assigned to be secretary for exactly two of the committees.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A record producer is planning the contents of a CD consisting of a sequence of exactly five instrumental pieces\u2014Reciprocity, Salammbo, Trapezoid, Vancouver, and Wisteria. To create and sustain certain moods, the sequence of pieces will satisfy the following constraints: Salammbo must be earlier than Vancouver. Trapezoid must either be earlier than both Reciprocity and Salammbo or later than both Reciprocity and Salammbo. Wisteria must either be earlier than both Reciprocity and Trapezoid or later than both Reciprocity and Trapezoid.",
+        "conclusion": "The first and second pieces on the CD, listed in order, could be Wisteria and Salammbo.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A company's six vehicles\u2014a hatchback, a limousine, a pickup, a roadster, a sedan, and a van\u2014are serviced during a certain week\u2014Monday through Saturday\u2014one vehicle per day. The following conditions must apply: At least one of the vehicles is serviced later in the week than the hatchback. The roadster is serviced later in the week than the van and earlier in the week than the hatchback. Either the pickup and the van are serviced on consecutive days, or the pickup and the sedan are serviced on consecutive days, but not both. The sedan is serviced earlier in the week than the pickup or earlier in the week than the limousine, but not both.",
+        "conclusion": "If the limousine is not serviced on Saturday, the statement 'The sedan is serviced on Wednesday' cannot be true.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "At a children's festival, exactly four songs are performed, each exactly once: \"Night's All Right,\" \"Question Man,\" \"Rhino Rock,\" and \"Sammy.\" The songs are performed consecutively, each on a different one of exactly four instruments: flute, guitar, harmonica, or keyboard. The songs are performed in accordance with the following: The first song performed is not performed on the flute. If \"Sammy\" is performed on the keyboard, then \"Rhino Rock\" is performed on the harmonica. If \"Question Man\" is performed on the keyboard, then \"Night's All Right\" is performed on the flute. The song performed on the keyboard immediately follows \"Rhino Rock\" and immediately precedes \"Night's All Right.\"",
+        "conclusion": "The song performed on the flute cannot immediately follow 'Sammy.'",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "In one week\u2014Monday through Friday\u2014a library's bookmobile will visit five of the following six neighborhoods\u2014Hidden Hills, Lakeville, Nottingham, Oldtown, Park Plaza, and Sunnyside. Exactly one neighborhood will be visited on each of the five days, and none of the neighborhoods will be visited on more than one day. The bookmobile's schedule must conform to the following conditions: Hidden Hills is visited, but not on Friday. If Oldtown is visited, then it is visited on the day immediately before Hidden Hills is visited. If Lakeville is visited, then it is visited on Wednesday. Nottingham and Sunnyside are both visited, but not on consecutive days.",
+        "conclusion": "If Hidden Hills is visited on Monday, then Lakeville must be visited on Wednesday.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "The organizer of a luncheon will select exactly five foods to be served from among exactly eight foods: two desserts\u2014F and G; three main courses\u2014N, O, and P; three side dishes\u2014T, V, and W. Only F, N, and T are hot foods. The following requirements will be satisfied: At least one dessert, at least one main course, and at least one side dish must be selected. At least one hot food must be selected. If either P or W is selected, both must be selected. If G is selected, O must be selected. If N is selected, V cannot be selected.",
+        "conclusion": "If F is not selected, it could be true that exactly three main courses are selected.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six petri dishes\u2014labeled dish 1 through dish 6\u2014are to be stored in an otherwise empty refrigerator. There are three available shelves\u2014the bottom shelf, the middle shelf, and the top shelf. The placement of the dishes must be consistent with the following conditions: No more than three dishes are stored on any shelf. Dish 2 is stored at least one shelf above dish 6. Dish 6 is stored either one shelf above or one shelf below dish 5. Dish 1 is not stored on the same shelf as dish 4.",
+        "conclusion": "If exactly one of the shelves has no dish stored on it, then exactly three of the dishes are stored on the middle shelf.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of seven candidates for the position of judge\u2014Hamadi, Jefferson, Kurtz, Li, McDonnell, Ortiz, and Perkins\u2014will be appointed to an open position on one of two courts\u2014the appellate court or the trial court. There are three open positions on the appellate court and six open positions on the trial court, but not all of them will be filled at this time. The judicial appointments will conform to the following conditions: Li must be appointed to the appellate court. Kurtz must be appointed to the trial court. Hamadi cannot be appointed to the same court as Perkins.",
+        "conclusion": "If Ortiz is appointed to the appellate court, Jefferson must be appointed to the appellate court.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A closet contains exactly six hangers\u20141, 2, 3, 4, 5, and 6\u2014hanging, in that order, from left to right. It also contains exactly six dresses\u2014one gauze, one linen, one polyester, one rayon, one silk, and one wool\u2014a different dress on each of the hangers, in an order satisfying the following conditions: The gauze dress is on a lower-numbered hanger than the polyester dress. The rayon dress is on hanger 1 or hanger 6. Either the wool dress or the silk dress is on hanger 3. The linen dress hangs immediately to the right of the silk dress.",
+        "conclusion": "If the silk dress is on an even-numbered hanger, the rayon dress could be on the hanger immediately to its left.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "During the seventeenth century, three families\u2014the Trents, the Williamses, and the Yandells\u2014owned the five buildings that constituted the center of their village\u2014the forge, the granary, the inn, the mill, and the stable. Each family owned at least one of the buildings and each building was owned by exactly one of the families. The historical evidence establishes the following about the ownership of the buildings: The Williamses owned more of the buildings than the Yandells owned. Neither the inn nor the mill belonged to the owner of the forge. Either the Trents owned the stable or the Yandells owned the inn, or both.",
+        "conclusion": "The complete and accurate list of buildings that could be the one owned by the Trents includes the forge and the mill.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "During a single week, from Monday through Friday, tours will be conducted of a company's three divisions\u2014Operations, Production, and Sales. Exactly five tours will be conducted that week, one each day. The schedule of tours for the week must conform to the following restrictions: Each division is toured at least once. The Operations division is not toured on Monday. The Production division is not toured on Wednesday. The Sales division is toured on two consecutive days, and on no other days. If the Operations division is toured on Thursday, then the Production division is toured on Friday.",
+        "conclusion": "If the division that is toured on Tuesday is also toured on Wednesday in the week's tour schedule, then the Sales division must be toured on Wednesday.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly five volunteers\u2014Haddad, Joslin, Kwon, Molina, and Nash\u2014are being assigned to three community committees\u2014X, Y, and Z. Each committee will have three volunteers assigned to it, with each volunteer on a committee holding exactly one of three positions\u2014leader, secretary, or treasurer. The following conditions apply: If Nash is assigned to a committee, Nash must be the leader for that committee. Molina must be assigned to exactly one committee. Kwon must be assigned to Y but cannot be assigned to Z. Joslin must be the secretary for Y but cannot be assigned to X or Z.",
+        "conclusion": "Substituting the condition that Nash must be assigned to more committees than Molina would have the same effect as the condition that Molina must be assigned to exactly one committee in determining the assignment of volunteers to committees.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "In one week\u2014Monday through Friday\u2014a library's bookmobile will visit five of the following six neighborhoods\u2014Hidden Hills, Lakeville, Nottingham, Oldtown, Park Plaza, and Sunnyside. Exactly one neighborhood will be visited on each of the five days, and none of the neighborhoods will be visited on more than one day. The bookmobile's schedule must conform to the following conditions: Hidden Hills is visited, but not on Friday. If Oldtown is visited, then it is visited on the day immediately before Hidden Hills is visited. If Lakeville is visited, then it is visited on Wednesday. Nottingham and Sunnyside are both visited, but not on consecutive days.",
+        "conclusion": "If Hidden Hills is visited on Wednesday, then Oldtown is visited on Tuesday.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "At a business symposium there will be exactly five speakers: Long, Molina, Xiao, Yoshida, and Zimmerman. Each speaker will give exactly one speech, in either the Gold Room or the Rose Room. In each room, there will be exactly one speech at 1 P.M. and one speech at 2 P.M. In one of the rooms, yet to be determined, there will also be a speech at 3 P.M. The schedule of speeches is constrained by the following: Molina's speech must be earlier than Long's, and in the same room. Neither Xiao's speech nor Yoshida's speech can be earlier than Zimmerman's. If Long's speech is in the Gold Room, then Xiao's and Zimmerman's speeches must both be in the Rose Room.",
+        "conclusion": "If Yoshida's speech is at 1 P.M., it could be true that Long's speech is at 2 P.M. in the Rose Room.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A researcher is studying seven manuscripts\u2014F, G, H, L, M, P, and S\u2014to determine their relative ages. It is known that no two manuscripts were written at the same time. The researcher has also determined the following: H was written earlier than S but later than F. P was the next manuscript written after G. At least four of the manuscripts were written earlier than L. At least four of the manuscripts were written later than M. H was not written fifth.",
+        "conclusion": "If H was the manuscript written after M, then it could be true that G was written third.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six of eight ceramic bowls, each crafted by exactly one of eight potters\u2014Larsen, Mills, Neiman, Olivera, Park, Reigel, Serra, and Vance\u2014will be displayed in a row in positions consecutively numbered 1 through 6, one bowl per position. The display is subject to the following conditions: If Larsen's bowl is displayed, Mills's bowl cannot be displayed. Park's bowl can be displayed only if it is next to Olivera's bowl and next to Serra's bowl. Reigel's bowl can be displayed only in either position 1 or position 6. Serra's bowl cannot be displayed in either position 2 or position 4. Neiman's bowl can be displayed only in position 5.",
+        "conclusion": "If Neiman's bowl, Park's bowl, and Reigel's bowl are all displayed, then Neiman's bowl must be displayed next to Reigel's bowl.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "During a single week, from Monday through Friday, tours will be conducted of a company's three divisions\u2014Operations, Production, and Sales. Exactly five tours will be conducted that week, one each day. The schedule of tours for the week must conform to the following restrictions: Each division is toured at least once. The Operations division is not toured on Monday. The Production division is not toured on Wednesday. The Sales division is toured on two consecutive days, and on no other days. If the Operations division is toured on Thursday, then the Production division is toured on Friday.",
+        "conclusion": "It cannot be true that the division toured on Tuesday is also toured on Thursday in the week's tour schedule.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A record producer is planning the contents of a CD consisting of a sequence of exactly five instrumental pieces\u2014Reciprocity, Salammbo, Trapezoid, Vancouver, and Wisteria. To create and sustain certain moods, the sequence of pieces will satisfy the following constraints: Salammbo must be earlier than Vancouver. Trapezoid must either be earlier than both Reciprocity and Salammbo or later than both Reciprocity and Salammbo. Wisteria must either be earlier than both Reciprocity and Trapezoid or later than both Reciprocity and Trapezoid.",
+        "conclusion": "If Wisteria is the first piece on the CD, then Vancouver cannot be the third piece on the CD.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Eight people\u2014Fiona, George, Harriet, Ingrid, Karl, Manuel, Olivia, and Peter\u2014are sitting, evenly spaced, around a circular picnic table. Any two of them are said to be sitting directly across from one another if and only if there are exactly three other people sitting between them, counting in either direction around the table. The following conditions apply: Fiona sits directly across from George. Harriet sits immediately next to neither Fiona nor Karl. Ingrid sits immediately next to, and immediately clockwise from, Olivia.",
+        "conclusion": "If Karl sits directly across from Harriet, the minimum possible number of people sitting between George and Karl, counting clockwise from George to Karl, is four.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A closet contains exactly six hangers\u20141, 2, 3, 4, 5, and 6\u2014hanging, in that order, from left to right. It also contains exactly six dresses\u2014one gauze, one linen, one polyester, one rayon, one silk, and one wool\u2014a different dress on each of the hangers, in an order satisfying the following conditions: The gauze dress is on a lower-numbered hanger than the polyester dress. The rayon dress is on hanger 1 or hanger 6. Either the wool dress or the silk dress is on hanger 3. The linen dress hangs immediately to the right of the silk dress.",
+        "conclusion": "If the condition is changed so that the wool dress hangs immediately to the right of the silk dress, then it must be false that the silk dress is on hanger 5.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of seven candidates for the position of judge\u2014Hamadi, Jefferson, Kurtz, Li, McDonnell, Ortiz, and Perkins\u2014will be appointed to an open position on one of two courts\u2014the appellate court or the trial court. There are three open positions on the appellate court and six open positions on the trial court, but not all of them will be filled at this time. The judicial appointments will conform to the following conditions: Li must be appointed to the appellate court. Kurtz must be appointed to the trial court. Hamadi cannot be appointed to the same court as Perkins.",
+        "conclusion": "It cannot be true that McDonnell and Ortiz are both appointed to the trial court.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A street entertainer has six boxes stacked one on top of the other and numbered consecutively 1 through 6, from the lowest box up to the highest. Each box contains a single ball, and each ball is one of three colors\u2014green, red, or white. Onlookers are to guess the color of each ball in each box, given that the following conditions hold: There are more red balls than white balls. There is a box containing a green ball that is lower in the stack than any box that contains a red ball. There is a white ball in a box that is immediately below a box that contains a green ball.",
+        "conclusion": "If there are exactly two white balls, then box 3 could contain a green ball.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A florist is filling a customer's order for three bouquets\u2014bouquet 1, bouquet 2, and bouquet 3. Each of the bouquets is to be composed of one or more of five kinds of flowers\u2014lilies, peonies, roses, snapdragons, and tulips\u2014subject to the following conditions: Bouquets 1 and 3 cannot have any kind of flower in common. Bouquets 2 and 3 must have exactly two kinds of flowers in common. Bouquet 3 must have snapdragons. If a bouquet has lilies, that bouquet must also have roses but cannot have snapdragons. If a bouquet has tulips, that bouquet must also have peonies.",
+        "conclusion": "A complete and accurate list of the kinds of flowers in each of the bouquets is as follows: bouquet 1 contains peonies and roses, bouquet 2 contains peonies and snapdragons, and bouquet 3 contains peonies, snapdragons, and tulips.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six of eight ceramic bowls, each crafted by exactly one of eight potters\u2014Larsen, Mills, Neiman, Olivera, Park, Reigel, Serra, and Vance\u2014will be displayed in a row in positions consecutively numbered 1 through 6, one bowl per position. The display is subject to the following conditions: If Larsen's bowl is displayed, Mills's bowl cannot be displayed. Park's bowl can be displayed only if it is next to Olivera's bowl and next to Serra's bowl. Reigel's bowl can be displayed only in either position 1 or position 6. Serra's bowl cannot be displayed in either position 2 or position 4. Neiman's bowl can be displayed only in position 5.",
+        "conclusion": "If Neiman's bowl and Park's bowl are both displayed, a potter whose bowl could be displayed in position 1 is Serra.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of seven candidates for the position of judge\u2014Hamadi, Jefferson, Kurtz, Li, McDonnell, Ortiz, and Perkins\u2014will be appointed to an open position on one of two courts\u2014the appellate court or the trial court. There are three open positions on the appellate court and six open positions on the trial court, but not all of them will be filled at this time. The judicial appointments will conform to the following conditions: Li must be appointed to the appellate court. Kurtz must be appointed to the trial court. Hamadi cannot be appointed to the same court as Perkins.",
+        "conclusion": "An acceptable set of appointments of candidates to courts is appellate: Li, Perkins and trial: Hamadi, Jefferson, Kurtz, McDonnell, Ortiz.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Eight people\u2014Fiona, George, Harriet, Ingrid, Karl, Manuel, Olivia, and Peter\u2014are sitting, evenly spaced, around a circular picnic table. Any two of them are said to be sitting directly across from one another if and only if there are exactly three other people sitting between them, counting in either direction around the table. The following conditions apply: Fiona sits directly across from George. Harriet sits immediately next to neither Fiona nor Karl. Ingrid sits immediately next to, and immediately clockwise from, Olivia.",
+        "conclusion": "If Harriet and Olivia each sits immediately next to George, Harriet and Karl could be the two people each of whom sits immediately next to Peter.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Seven librarians\u2014Flynn, Gomez, Hill, Kitson, Leung, Moore, and Zahn\u2014are being scheduled for desk duty for one week\u2014Monday through Saturday. The librarians will be on duty exactly one day each. On each day except Saturday, there will be exactly one librarian on duty, with two on duty on Saturday, subject to the following constraints: Hill must be on desk duty earlier in the week than Leung. Both Hill and Moore must be on desk duty earlier in the week than Gomez. Flynn must be on desk duty earlier in the week than both Kitson and Moore. Kitson must be on desk duty earlier in the week than Zahn. Unless Leung is on desk duty on Saturday, Leung must be on desk duty earlier in the week than Flynn.",
+        "conclusion": "If Moore is on desk duty on Tuesday, then Leung must be on desk duty on Saturday.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A company operates vending machines in four schools: Ferndale, Gladstone, Hafford, and Isley. The company delivers juices in one of its two trucks and snacks in the other truck. Each week, exactly one delivery of juices and exactly one delivery of snacks is made to each school, subject to the following conditions: Snacks must be delivered to Ferndale at some time before they are delivered to Hafford. Gladstone cannot be the fourth school to which juices are delivered. Gladstone must be the third school to which snacks are delivered. The first school to which juices are delivered must be the fourth one to which snacks are delivered.",
+        "conclusion": "It could be true that both juices and snacks are delivered to Isley at some time before they are delivered to Hafford.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A toy retailer is opening a small satellite store with exactly three aisles, numbered from 1 (lowest) to 3 (highest). Six sections\u2014Fantasy, Hobbies, Music, Puzzles, Reading, and Science\u2014will each be confined to exactly one aisle, with each aisle containing at least one of the sections. The following conditions hold: Reading must be located in the same aisle as either Fantasy or Music. Fantasy must be located in a lower-numbered aisle than both Music and Puzzles. Science must be located in a lower-numbered aisle than Puzzles. Science cannot be located in a lower-numbered aisle than Hobbies.",
+        "conclusion": "If aisle 1 contains Hobbies only, then reading could be located in aisle 3.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six members of a skydiving team\u2014Larue, Ohba, Pei, Trevino, Weiss, and Zacny\u2014each dive exactly once, one at a time, from a plane, consistent with the following conditions: Trevino dives from the plane at some time before Weiss does. Larue dives from the plane either first or last. Neither Weiss nor Zacny dives from the plane last. Pei dives from the plane at some time after either Ohba or Larue but not both.",
+        "conclusion": "If Larue dives from the plane last, then Pei diving from the plane fifth cannot be true.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A television programming director is scheduling a three-hour block of programs beginning at 1 P.M. The programs that are to fill this time block include an hour-long program called Generations and four half-hour programs: Roamin', Sundown, Terry, and Waterloo. The programs will be shown one after the other, each program shown exactly once. The schedule must meet the following constraints: Generations starts on the hour rather than the half hour. Terry starts on the half hour rather than the hour. Roamin' is shown earlier than Sundown. If Waterloo is shown earlier than Terry, it is shown immediately before Terry.",
+        "conclusion": "If Roamin' is the second program, Sundown cannot be the third program.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six members of a skydiving team\u2014Larue, Ohba, Pei, Trevino, Weiss, and Zacny\u2014each dive exactly once, one at a time, from a plane, consistent with the following conditions: Trevino dives from the plane at some time before Weiss does. Larue dives from the plane either first or last. Neither Weiss nor Zacny dives from the plane last. Pei dives from the plane at some time after either Ohba or Larue but not both.",
+        "conclusion": "At least two of the members must dive from the plane after Trevino.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "As part of an open house at a crafts studio, three teachers\u2014Jiang, Kudrow, and Lanning\u2014will give six consecutive presentations on six different subjects. Jiang will present on needlework and origami; Kudrow on pottery, stenciling, and textile making; and Lanning on woodworking. The order of their presentations will meet the following conditions: Kudrow cannot give two presentations in a row. The presentation on stenciling must be given earlier than the one on origami. The presentation on textile making must be given earlier than the one on woodworking.",
+        "conclusion": "Jiang cannot give both the first and third presentations.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A crew of up to five workers is to install a partition in at most three days. The crew completes five tasks in this order: framing, wallboarding, taping, sanding, priming. The crew is selected from the following list, which specifies exactly the tasks each person can do: George: taping Helena: sanding, priming Inga: framing, priming Kelly: framing, sanding Leanda: wallboarding, taping Maricita: sanding Olaf: wallboarding, priming The following conditions must apply: At least one task is done each day. Taping and priming are done on different days. Each crew member does at least one task during the installation, but no more than one task a day. Each task is done by exactly one worker, completed the day it is started and before the next task begins.",
+        "conclusion": "If the installation takes three days and the sanding is done on the third day, then Leanda and Olaf could be the list of all the crew members who work on the second day.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A record producer is planning the contents of a CD consisting of a sequence of exactly five instrumental pieces\u2014Reciprocity, Salammbo, Trapezoid, Vancouver, and Wisteria. To create and sustain certain moods, the sequence of pieces will satisfy the following constraints: Salammbo must be earlier than Vancouver. Trapezoid must either be earlier than both Reciprocity and Salammbo or later than both Reciprocity and Salammbo. Wisteria must either be earlier than both Reciprocity and Trapezoid or later than both Reciprocity and Trapezoid.",
+        "conclusion": "If Salammbo is the fourth piece on the CD, then Trapezoid is earlier on the CD than Reciprocity.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of five paralegals\u2014Frank, Gina, Hiro, Kevin, and Laurie\u2014is being assigned to exactly one of three cases\u2014the Raimes, Sicoli, or Thompson case. At least one paralegal will be assigned to each case. The following conditions must apply: Either Frank is assigned to Raimes and Kevin is assigned to Thompson, or Frank is not assigned to Raimes and Kevin is not assigned to Thompson. Either Frank is the sole paralegal assigned to his case or Gina is the sole paralegal assigned to her case, but not both. Hiro is assigned to Sicoli.",
+        "conclusion": "Laurie cannot be the complete assignment of paralegals to the Thompson case.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Six entertainers\u2014Robinson, Shahpari, Tigay, Wu, Yeaton, and Zane\u2014are being scheduled for the six performances on the opening day of a community festival. Each entertainer will perform at one of six times\u2014in the morning at 9:00 A.M., 10:00 A.M., or 11:00 A.M., or in the afternoon at 2:00 P.M., 3:00 P.M., or 4:00 P.M.\u2014with no two entertainers performing at the same scheduled time. The order in which the entertainers perform is subject to the following constraints: Robinson must perform at some time before Zane. Yeaton's performance must be the next performance after Wu's. Tigay must perform in the afternoon. Zane must perform in the morning.",
+        "conclusion": "A complete and accurate list of the entertainers who must be scheduled to perform in the afternoon includes Tigay and Yeaton.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "During the seventeenth century, three families\u2014the Trents, the Williamses, and the Yandells\u2014owned the five buildings that constituted the center of their village\u2014the forge, the granary, the inn, the mill, and the stable. Each family owned at least one of the buildings and each building was owned by exactly one of the families. The historical evidence establishes the following about the ownership of the buildings: The Williamses owned more of the buildings than the Yandells owned. Neither the inn nor the mill belonged to the owner of the forge. Either the Trents owned the stable or the Yandells owned the inn, or both.",
+        "conclusion": "An accurate matching of each family to the building or buildings it owned is as follows: Trents owned the forge and the granary, Williamses owned the mill, and Yandells owned the inn and the stable.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "At a business symposium there will be exactly five speakers: Long, Molina, Xiao, Yoshida, and Zimmerman. Each speaker will give exactly one speech, in either the Gold Room or the Rose Room. In each room, there will be exactly one speech at 1 P.M. and one speech at 2 P.M. In one of the rooms, yet to be determined, there will also be a speech at 3 P.M. The schedule of speeches is constrained by the following: Molina's speech must be earlier than Long's, and in the same room. Neither Xiao's speech nor Yoshida's speech can be earlier than Zimmerman's. If Long's speech is in the Gold Room, then Xiao's and Zimmerman's speeches must both be in the Rose Room.",
+        "conclusion": "The speeches given in each room, in order, could be Molina's and Long's in the Gold Room, followed by Zimmerman's, Xiao's, and Yoshida's in the Rose Room.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "An economics department is assigning six teaching assistants\u2014Ramos, Smith, Taj, Vogel, Yi, and Zane\u2014to three courses\u2014Labor, Markets, and Pricing. Each assistant will be assigned to exactly one course, and each course will have at least one assistant assigned to it. The assignment of assistants to courses is subject to the following conditions: Markets must have exactly two assistants assigned to it. Smith and Taj must be assigned to the same course as each other. Vogel and Yi cannot be assigned to the same course as each other. Yi and Zane must both be assigned to Pricing if either one of them is.",
+        "conclusion": "Ramos and Zane cannot be the complete assignment of assistants to Labor.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A music store carries exactly ten types of CDs\u2014both new and used of each of jazz, opera, pop, rap, and soul. The store is having a sale on some of these types of CDs. The following conditions must apply: Used pop is on sale; new opera is not. If both types of pop are on sale, then all soul is. If both types of jazz are on sale, then no rap is. If neither type of jazz is on sale, then new pop is. If either type of rap is on sale, then no soul is.",
+        "conclusion": "If neither type of jazz is on sale, then it must be true that new soul is on sale, except in one scenario.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "At a children's festival, exactly four songs are performed, each exactly once: \"Night's All Right,\" \"Question Man,\" \"Rhino Rock,\" and \"Sammy.\" The songs are performed consecutively, each on a different one of exactly four instruments: flute, guitar, harmonica, or keyboard. The songs are performed in accordance with the following: The first song performed is not performed on the flute. If \"Sammy\" is performed on the keyboard, then \"Rhino Rock\" is performed on the harmonica. If \"Question Man\" is performed on the keyboard, then \"Night's All Right\" is performed on the flute. The song performed on the keyboard immediately follows \"Rhino Rock\" and immediately precedes \"Night's All Right.\"",
+        "conclusion": "It could be true that 'Sammy' immediately precedes the song performed on the guitar.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Six entertainers\u2014Robinson, Shahpari, Tigay, Wu, Yeaton, and Zane\u2014are being scheduled for the six performances on the opening day of a community festival. Each entertainer will perform at one of six times\u2014in the morning at 9:00 A.M., 10:00 A.M., or 11:00 A.M., or in the afternoon at 2:00 P.M., 3:00 P.M., or 4:00 P.M.\u2014with no two entertainers performing at the same scheduled time. The order in which the entertainers perform is subject to the following constraints: Robinson must perform at some time before Zane. Yeaton's performance must be the next performance after Wu's. Tigay must perform in the afternoon. Zane must perform in the morning.",
+        "conclusion": "The order in which the entertainers are scheduled to perform, from first to last, is Wu, Yeaton, Zane, Shahpari, Tigay, Robinson.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A record producer is planning the contents of a CD consisting of a sequence of exactly five instrumental pieces\u2014Reciprocity, Salammbo, Trapezoid, Vancouver, and Wisteria. To create and sustain certain moods, the sequence of pieces will satisfy the following constraints: Salammbo must be earlier than Vancouver. Trapezoid must either be earlier than both Reciprocity and Salammbo or later than both Reciprocity and Salammbo. Wisteria must either be earlier than both Reciprocity and Trapezoid or later than both Reciprocity and Trapezoid.",
+        "conclusion": "If Trapezoid is the second piece on the CD, then Vancouver could be the third piece on the CD.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A record producer is planning the contents of a CD consisting of a sequence of exactly five instrumental pieces\u2014Reciprocity, Salammbo, Trapezoid, Vancouver, and Wisteria. To create and sustain certain moods, the sequence of pieces will satisfy the following constraints: Salammbo must be earlier than Vancouver. Trapezoid must either be earlier than both Reciprocity and Salammbo or later than both Reciprocity and Salammbo. Wisteria must either be earlier than both Reciprocity and Trapezoid or later than both Reciprocity and Trapezoid.",
+        "conclusion": "If Reciprocity is the first piece on the CD, then Vancouver could be the third piece on the CD.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Four boys\u2014Fred, Juan, Marc, and Paul\u2014and three girls\u2014Nita, Rachel, and Trisha\u2014will be assigned to a row of five adjacent lockers, numbered consecutively 1 through 5, arranged along a straight wall. The following conditions govern the assignment of lockers to the seven children: Each locker must be assigned to either one or two children, and each child must be assigned to exactly one locker. Each shared locker must be assigned to one girl and one boy. Juan must share a locker, but Rachel cannot share a locker. Nita's locker cannot be adjacent to Trisha's locker. Fred must be assigned to locker 3.",
+        "conclusion": "If the four boys are assigned to consecutively numbered lockers and Juan is assigned to locker 5, then locker 4 is the only one that cannot be a shared locker.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Five students\u2014Manolo, Nadia, Owen, Peng, and Rana\u2014are each to deliver exactly one speech. Speeches are on exactly one of two topics\u2014friendship and liberty. Each student has only one major: two major in geology, two in history, and one in journalism. The following conditions must apply: Exactly two of the students speak on friendship. A geology major and a history major speak on friendship. Manolo speaks on friendship. Rana speaks on liberty. Neither Peng nor Rana is a geology major. Nadia is a geology major.",
+        "conclusion": "If Owen is a geology major who speaks on friendship, then Manolo is a history major must be true.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A corporation's Human Resources department must determine annual bonuses for seven employees\u2014Kimura, Lopez, Meng, and Peterson, who work in the Finance department; and Vaughan, Xavier, and Zane, who work in the Graphics department. Each employee will receive either a $1,000 bonus, a $3,000 bonus, or a $5,000 bonus, in accordance with the following: No one in the Graphics department receives a $1,000 bonus. Any employee who was rated Highly Effective receives a larger bonus than anyone in his or her department who was not rated Highly Effective. Only Lopez, Meng, and Xavier were rated Highly Effective.",
+        "conclusion": "At most three of the employees must receive a $5,000 bonus.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Seven librarians\u2014Flynn, Gomez, Hill, Kitson, Leung, Moore, and Zahn\u2014are being scheduled for desk duty for one week\u2014Monday through Saturday. The librarians will be on duty exactly one day each. On each day except Saturday, there will be exactly one librarian on duty, with two on duty on Saturday, subject to the following constraints: Hill must be on desk duty earlier in the week than Leung. Both Hill and Moore must be on desk duty earlier in the week than Gomez. Flynn must be on desk duty earlier in the week than both Kitson and Moore. Kitson must be on desk duty earlier in the week than Zahn. Unless Leung is on desk duty on Saturday, Leung must be on desk duty earlier in the week than Flynn.",
+        "conclusion": "An acceptable schedule for the librarians, listed in order from Monday through Saturday, is Flynn; Hill; Moore; Kitson; Zahn; Gomez and Leung.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "As part of an open house at a crafts studio, three teachers\u2014Jiang, Kudrow, and Lanning\u2014will give six consecutive presentations on six different subjects. Jiang will present on needlework and origami; Kudrow on pottery, stenciling, and textile making; and Lanning on woodworking. The order of their presentations will meet the following conditions: Kudrow cannot give two presentations in a row. The presentation on stenciling must be given earlier than the one on origami. The presentation on textile making must be given earlier than the one on woodworking.",
+        "conclusion": "If textile making is presented fifth, stenciling could be presented third.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of the seven members of the board of directors\u2014Guzman, Hawking, Lepp, Miyauchi, Upchurch, Wharton, and Zhu\u2014serves on exactly one of two committees\u2014the finance committee or the incentives committee. Only board members serve on these committees. Committee membership is consistent with the following conditions: If Guzman serves on the finance committee, then Hawking serves on the incentives committee. If Lepp serves on the finance committee, then Miyauchi and Upchurch both serve on the incentives committee. Wharton serves on a different committee from the one on which Zhu serves. Upchurch serves on a different committee from the one on which Guzman serves. If Zhu serves on the finance committee, so does Hawking.",
+        "conclusion": "The pair of board members Hawking and Wharton cannot both serve on the incentives committee.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A corporation's Human Resources department must determine annual bonuses for seven employees\u2014Kimura, Lopez, Meng, and Peterson, who work in the Finance department; and Vaughan, Xavier, and Zane, who work in the Graphics department. Each employee will receive either a $1,000 bonus, a $3,000 bonus, or a $5,000 bonus, in accordance with the following: No one in the Graphics department receives a $1,000 bonus. Any employee who was rated Highly Effective receives a larger bonus than anyone in his or her department who was not rated Highly Effective. Only Lopez, Meng, and Xavier were rated Highly Effective.",
+        "conclusion": "An allowable distribution of bonuses to the seven employees is as follows: Kimura in Finance receives $1,000, Lopez in Finance receives $5,000, Meng in Finance receives $5,000, Peterson in Finance receives $3,000, Vaughan in Graphics receives $3,000, Xavier in Graphics receives $5,000, and Zane in Graphics receives $3,000.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "As part of an open house at a crafts studio, three teachers\u2014Jiang, Kudrow, and Lanning\u2014will give six consecutive presentations on six different subjects. Jiang will present on needlework and origami; Kudrow on pottery, stenciling, and textile making; and Lanning on woodworking. The order of their presentations will meet the following conditions: Kudrow cannot give two presentations in a row. The presentation on stenciling must be given earlier than the one on origami. The presentation on textile making must be given earlier than the one on woodworking.",
+        "conclusion": "The order of the presentations, from first to sixth, could be textile making, stenciling, woodworking, needlework, pottery, and origami.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A record producer is planning the contents of a CD consisting of a sequence of exactly five instrumental pieces\u2014Reciprocity, Salammbo, Trapezoid, Vancouver, and Wisteria. To create and sustain certain moods, the sequence of pieces will satisfy the following constraints: Salammbo must be earlier than Vancouver. Trapezoid must either be earlier than both Reciprocity and Salammbo or later than both Reciprocity and Salammbo. Wisteria must either be earlier than both Reciprocity and Trapezoid or later than both Reciprocity and Trapezoid.",
+        "conclusion": "The five pieces could appear in the following sequence on the CD, in order from first to last: Salammbo, Reciprocity, Trapezoid, Vancouver, Wisteria.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of exactly seven professors\u2014Powell, Shihab, Taylor, Vaughan, Wood, Young, and Zabel\u2014gives exactly one guest lecture in the literary theory course. The lectures are ordered from first through seventh, and their order must conform to the following: Powell lectures before Wood. Taylor lectures before Shihab. Vaughan lectures before Zabel. Shihab is no later than third. Young is not seventh. Powell lectures first if, but only if, Young lectures before Vaughan.",
+        "conclusion": "Powell cannot give the second guest lecture.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "At a children's festival, exactly four songs are performed, each exactly once: \"Night's All Right,\" \"Question Man,\" \"Rhino Rock,\" and \"Sammy.\" The songs are performed consecutively, each on a different one of exactly four instruments: flute, guitar, harmonica, or keyboard. The songs are performed in accordance with the following: The first song performed is not performed on the flute. If \"Sammy\" is performed on the keyboard, then \"Rhino Rock\" is performed on the harmonica. If \"Question Man\" is performed on the keyboard, then \"Night's All Right\" is performed on the flute. The song performed on the keyboard immediately follows \"Rhino Rock\" and immediately precedes \"Night's All Right.\"",
+        "conclusion": "If \"Question Man\" is the third song performed at the festival, then it cannot be true that it is performed on the keyboard.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six members of a skydiving team\u2014Larue, Ohba, Pei, Trevino, Weiss, and Zacny\u2014each dive exactly once, one at a time, from a plane, consistent with the following conditions: Trevino dives from the plane at some time before Weiss does. Larue dives from the plane either first or last. Neither Weiss nor Zacny dives from the plane last. Pei dives from the plane at some time after either Ohba or Larue but not both.",
+        "conclusion": "If Trevino dives from the plane immediately after Larue, then Ohba diving from the plane third could not be true.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "An economics department is assigning six teaching assistants\u2014Ramos, Smith, Taj, Vogel, Yi, and Zane\u2014to three courses\u2014Labor, Markets, and Pricing. Each assistant will be assigned to exactly one course, and each course will have at least one assistant assigned to it. The assignment of assistants to courses is subject to the following conditions: Markets must have exactly two assistants assigned to it. Smith and Taj must be assigned to the same course as each other. Vogel and Yi cannot be assigned to the same course as each other. Yi and Zane must both be assigned to Pricing if either one of them is.",
+        "conclusion": "It could be true that Ramos and Vogel are both assigned to Markets.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Eight people\u2014Fiona, George, Harriet, Ingrid, Karl, Manuel, Olivia, and Peter\u2014are sitting, evenly spaced, around a circular picnic table. Any two of them are said to be sitting directly across from one another if and only if there are exactly three other people sitting between them, counting in either direction around the table. The following conditions apply: Fiona sits directly across from George. Harriet sits immediately next to neither Fiona nor Karl. Ingrid sits immediately next to, and immediately clockwise from, Olivia.",
+        "conclusion": "The order in which four of the people are seated, with no one else seated between them, counting clockwise around the table, could be Olivia, Manuel, Karl, George.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six petri dishes\u2014labeled dish 1 through dish 6\u2014are to be stored in an otherwise empty refrigerator. There are three available shelves\u2014the bottom shelf, the middle shelf, and the top shelf. The placement of the dishes must be consistent with the following conditions: No more than three dishes are stored on any shelf. Dish 2 is stored at least one shelf above dish 6. Dish 6 is stored either one shelf above or one shelf below dish 5. Dish 1 is not stored on the same shelf as dish 4.",
+        "conclusion": "An acceptable placement of dishes on the shelves is dishes 4 and 6 on the bottom, dishes 1 and 3 on the middle, and dishes 2 and 5 on the top.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A music store carries exactly ten types of CDs\u2014both new and used of each of jazz, opera, pop, rap, and soul. The store is having a sale on some of these types of CDs. The following conditions must apply: Used pop is on sale; new opera is not. If both types of pop are on sale, then all soul is. If both types of jazz are on sale, then no rap is. If neither type of jazz is on sale, then new pop is. If either type of rap is on sale, then no soul is.",
+        "conclusion": "If new soul is not on sale, then at least one type of pop is not on sale.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A landscaper will plant exactly seven trees today\u2014a hickory, a larch, a maple, an oak, a plum, a sycamore, and a walnut. Each tree must be planted on exactly one of three lots\u20141, 2, or 3\u2014in conformity with the following requirements: The trees planted on one lot are the hickory, the oak, and exactly one other tree. The maple is not planted on the same lot as the walnut. Either the larch or the walnut, but not both, is planted on lot 1. Either the maple or the oak, but not both, is planted on lot 2. More trees are planted on lot 3 than on lot 1.",
+        "conclusion": "If the hickory is planted on lot 2, then the maple must be planted on lot 3.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of exactly seven professors\u2014Powell, Shihab, Taylor, Vaughan, Wood, Young, and Zabel\u2014gives exactly one guest lecture in the literary theory course. The lectures are ordered from first through seventh, and their order must conform to the following: Powell lectures before Wood. Taylor lectures before Shihab. Vaughan lectures before Zabel. Shihab is no later than third. Young is not seventh. Powell lectures first if, but only if, Young lectures before Vaughan.",
+        "conclusion": "If Shihab lectures second and Zabel lectures fourth, then Powell could lecture sixth.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Five students\u2014Manolo, Nadia, Owen, Peng, and Rana\u2014are each to deliver exactly one speech. Speeches are on exactly one of two topics\u2014friendship and liberty. Each student has only one major: two major in geology, two in history, and one in journalism. The following conditions must apply: Exactly two of the students speak on friendship. A geology major and a history major speak on friendship. Manolo speaks on friendship. Rana speaks on liberty. Neither Peng nor Rana is a geology major. Nadia is a geology major.",
+        "conclusion": "Rana must be a journalism major if Owen is a geology major and Manolo is a history major.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Millville has created three new development zones: Z1, Z2, and Z3. Within these zones, subzones can be designated for housing, industrial, or retail use, with no subzone designated for more than one use. By city regulation, a total of no more than three subzones can be designated for each of the three uses. The following restrictions are in place: Retail subzones are not allowed in Z1. No more than two subzones for housing are allowed in any particular zone. No more than one retail subzone is allowed in any zone in which a subzone is designated for housing. Industrial subzones are not allowed in any zone in which a subzone is designated for housing or three subzones are designated for retail use.",
+        "conclusion": "The maximum number of designated subzones allowed in Z3 is 6.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six of eight ceramic bowls, each crafted by exactly one of eight potters\u2014Larsen, Mills, Neiman, Olivera, Park, Reigel, Serra, and Vance\u2014will be displayed in a row in positions consecutively numbered 1 through 6, one bowl per position. The display is subject to the following conditions: If Larsen's bowl is displayed, Mills's bowl cannot be displayed. Park's bowl can be displayed only if it is next to Olivera's bowl and next to Serra's bowl. Reigel's bowl can be displayed only in either position 1 or position 6. Serra's bowl cannot be displayed in either position 2 or position 4. Neiman's bowl can be displayed only in position 5.",
+        "conclusion": "Reigel is the potter whose bowl must be displayed.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A professor must determine the order in which five of her students\u2014Fernando, Ginny, Hakim, Juanita, and Kevin\u2014will perform in an upcoming piano recital. Each student performs one piece, and no two performances overlap. The following constraints apply: Ginny must perform earlier than Fernando. Kevin must perform earlier than Hakim and Juanita. Hakim must perform either immediately before or immediately after Fernando.",
+        "conclusion": "Hakim performing immediately before Ginny cannot be true.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A crew of up to five workers is to install a partition in at most three days. The crew completes five tasks in this order: framing, wallboarding, taping, sanding, priming. The crew is selected from the following list, which specifies exactly the tasks each person can do: George: taping Helena: sanding, priming Inga: framing, priming Kelly: framing, sanding Leanda: wallboarding, taping Maricita: sanding Olaf: wallboarding, priming The following conditions must apply: At least one task is done each day. Taping and priming are done on different days. Each crew member does at least one task during the installation, but no more than one task a day. Each task is done by exactly one worker, completed the day it is started and before the next task begins.",
+        "conclusion": "Kelly and Leanda could be a pair of crew members both of whom work on the same days as each other and each perform two tasks.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "During the seventeenth century, three families\u2014the Trents, the Williamses, and the Yandells\u2014owned the five buildings that constituted the center of their village\u2014the forge, the granary, the inn, the mill, and the stable. Each family owned at least one of the buildings and each building was owned by exactly one of the families. The historical evidence establishes the following about the ownership of the buildings: The Williamses owned more of the buildings than the Yandells owned. Neither the inn nor the mill belonged to the owner of the forge. Either the Trents owned the stable or the Yandells owned the inn, or both.",
+        "conclusion": "If one of the families owned both the granary and the inn, the Trents could own the mill.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "As part of an open house at a crafts studio, three teachers\u2014Jiang, Kudrow, and Lanning\u2014will give six consecutive presentations on six different subjects. Jiang will present on needlework and origami; Kudrow on pottery, stenciling, and textile making; and Lanning on woodworking. The order of their presentations will meet the following conditions: Kudrow cannot give two presentations in a row. The presentation on stenciling must be given earlier than the one on origami. The presentation on textile making must be given earlier than the one on woodworking.",
+        "conclusion": "If needlework is presented first, stenciling could be presented third.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Seven librarians\u2014Flynn, Gomez, Hill, Kitson, Leung, Moore, and Zahn\u2014are being scheduled for desk duty for one week\u2014Monday through Saturday. The librarians will be on duty exactly one day each. On each day except Saturday, there will be exactly one librarian on duty, with two on duty on Saturday, subject to the following constraints: Hill must be on desk duty earlier in the week than Leung. Both Hill and Moore must be on desk duty earlier in the week than Gomez. Flynn must be on desk duty earlier in the week than both Kitson and Moore. Kitson must be on desk duty earlier in the week than Zahn. Unless Leung is on desk duty on Saturday, Leung must be on desk duty earlier in the week than Flynn.",
+        "conclusion": "If Kitson is on desk duty earlier in the week than Moore, Gomez cannot be on desk duty earlier in the week than Kitson.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Four employees\u2014Jackson, Larabee, Paulson, and Torillo\u2014are to select from among four offices\u2014W, X, Y, and Z. The order in which they select, from first to fourth, is to be decided by a random drawing. Each employee has ranked the offices from first (highest) to fourth (lowest) as follows: Jackson: Y, X, Z, W Larabee: X, Z, W, Y Paulson: Y, Z, X, W Torillo: X, Y, Z, W The following restrictions must apply: Each employee selects an office that has not been selected previously. Each employee selects only one office. Each employee selects the office that he or she ranks highest among the unselected offices.",
+        "conclusion": "It must be true that Larabee does not select office Z.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A professor must determine the order in which five of her students\u2014Fernando, Ginny, Hakim, Juanita, and Kevin\u2014will perform in an upcoming piano recital. Each student performs one piece, and no two performances overlap. The following constraints apply: Ginny must perform earlier than Fernando. Kevin must perform earlier than Hakim and Juanita. Hakim must perform either immediately before or immediately after Fernando.",
+        "conclusion": "There are two students any one of whom could perform fourth.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A closet contains exactly six hangers\u20141, 2, 3, 4, 5, and 6\u2014hanging, in that order, from left to right. It also contains exactly six dresses\u2014one gauze, one linen, one polyester, one rayon, one silk, and one wool\u2014a different dress on each of the hangers, in an order satisfying the following conditions: The gauze dress is on a lower-numbered hanger than the polyester dress. The rayon dress is on hanger 1 or hanger 6. Either the wool dress or the silk dress is on hanger 3. The linen dress hangs immediately to the right of the silk dress.",
+        "conclusion": "The polyester dress hanging immediately to the right of the rayon dress cannot be true.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A company operates vending machines in four schools: Ferndale, Gladstone, Hafford, and Isley. The company delivers juices in one of its two trucks and snacks in the other truck. Each week, exactly one delivery of juices and exactly one delivery of snacks is made to each school, subject to the following conditions: Snacks must be delivered to Ferndale at some time before they are delivered to Hafford. Gladstone cannot be the fourth school to which juices are delivered. Gladstone must be the third school to which snacks are delivered. The first school to which juices are delivered must be the fourth one to which snacks are delivered.",
+        "conclusion": "If Hafford is the fourth school to which juices are delivered, then Hafford must be the second school to which snacks are delivered.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A television programming director is scheduling a three-hour block of programs beginning at 1 P.M. The programs that are to fill this time block include an hour-long program called Generations and four half-hour programs: Roamin', Sundown, Terry, and Waterloo. The programs will be shown one after the other, each program shown exactly once. The schedule must meet the following constraints: Generations starts on the hour rather than the half hour. Terry starts on the half hour rather than the hour. Roamin' is shown earlier than Sundown. If Waterloo is shown earlier than Terry, it is shown immediately before Terry.",
+        "conclusion": "Waterloo being shown immediately before Roamin' cannot be true.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A crew of up to five workers is to install a partition in at most three days. The crew completes five tasks in this order: framing, wallboarding, taping, sanding, priming. The crew is selected from the following list, which specifies exactly the tasks each person can do: George: taping Helena: sanding, priming Inga: framing, priming Kelly: framing, sanding Leanda: wallboarding, taping Maricita: sanding Olaf: wallboarding, priming The following conditions must apply: At least one task is done each day. Taping and priming are done on different days. Each crew member does at least one task during the installation, but no more than one task a day. Each task is done by exactly one worker, completed the day it is started and before the next task begins.",
+        "conclusion": "A complete and accurate list of the members of the crew could be George, Helena, Leanda, Maricita, and Olaf.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Seven librarians\u2014Flynn, Gomez, Hill, Kitson, Leung, Moore, and Zahn\u2014are being scheduled for desk duty for one week\u2014Monday through Saturday. The librarians will be on duty exactly one day each. On each day except Saturday, there will be exactly one librarian on duty, with two on duty on Saturday, subject to the following constraints: Hill must be on desk duty earlier in the week than Leung. Both Hill and Moore must be on desk duty earlier in the week than Gomez. Flynn must be on desk duty earlier in the week than both Kitson and Moore. Kitson must be on desk duty earlier in the week than Zahn. Unless Leung is on desk duty on Saturday, Leung must be on desk duty earlier in the week than Flynn.",
+        "conclusion": "Substituting the constraint that Flynn cannot be on desk duty on Thursday would have the same effect in determining the schedule for the librarians as the original constraint that Flynn must be on desk duty earlier in the week than both Kitson and Moore.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "A music store carries exactly ten types of CDs\u2014both new and used of each of jazz, opera, pop, rap, and soul. The store is having a sale on some of these types of CDs. The following conditions must apply: Used pop is on sale; new opera is not. If both types of pop are on sale, then all soul is. If both types of jazz are on sale, then no rap is. If neither type of jazz is on sale, then new pop is. If either type of rap is on sale, then no soul is.",
+        "conclusion": "If new soul is the only type of new CD on sale, then it cannot be true that used jazz is not on sale.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "At a business symposium there will be exactly five speakers: Long, Molina, Xiao, Yoshida, and Zimmerman. Each speaker will give exactly one speech, in either the Gold Room or the Rose Room. In each room, there will be exactly one speech at 1 P.M. and one speech at 2 P.M. In one of the rooms, yet to be determined, there will also be a speech at 3 P.M. The schedule of speeches is constrained by the following: Molina's speech must be earlier than Long's, and in the same room. Neither Xiao's speech nor Yoshida's speech can be earlier than Zimmerman's. If Long's speech is in the Gold Room, then Xiao's and Zimmerman's speeches must both be in the Rose Room.",
+        "conclusion": "A complete and accurate list of the speeches given in the Gold Room, in the order in which they occur, could be Molina's, Yoshida's, and Long's.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six of eight ceramic bowls, each crafted by exactly one of eight potters\u2014Larsen, Mills, Neiman, Olivera, Park, Reigel, Serra, and Vance\u2014will be displayed in a row in positions consecutively numbered 1 through 6, one bowl per position. The display is subject to the following conditions: If Larsen's bowl is displayed, Mills's bowl cannot be displayed. Park's bowl can be displayed only if it is next to Olivera's bowl and next to Serra's bowl. Reigel's bowl can be displayed only in either position 1 or position 6. Serra's bowl cannot be displayed in either position 2 or position 4. Neiman's bowl can be displayed only in position 5.",
+        "conclusion": "The display of bowls, listed by potters' names in order from position 1 through position 6, could be Mills, Olivera, Park, Serra, Reigel, and Vance.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Exactly six of eight ceramic bowls, each crafted by exactly one of eight potters\u2014Larsen, Mills, Neiman, Olivera, Park, Reigel, Serra, and Vance\u2014will be displayed in a row in positions consecutively numbered 1 through 6, one bowl per position. The display is subject to the following conditions: If Larsen's bowl is displayed, Mills's bowl cannot be displayed. Park's bowl can be displayed only if it is next to Olivera's bowl and next to Serra's bowl. Reigel's bowl can be displayed only in either position 1 or position 6. Serra's bowl cannot be displayed in either position 2 or position 4. Neiman's bowl can be displayed only in position 5.",
+        "conclusion": "If Park's bowl is displayed in position 4, then the bowl displayed in position 2 must be Larsen's, Mills's, or Vance's.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "During a single week, from Monday through Friday, tours will be conducted of a company's three divisions\u2014Operations, Production, and Sales. Exactly five tours will be conducted that week, one each day. The schedule of tours for the week must conform to the following restrictions: Each division is toured at least once. The Operations division is not toured on Monday. The Production division is not toured on Wednesday. The Sales division is toured on two consecutive days, and on no other days. If the Operations division is toured on Thursday, then the Production division is toured on Friday.",
+        "conclusion": "In the week's tour schedule, if the division that is toured on Monday is not the division that is toured on Tuesday, then it could be true that the Operations division is toured on Wednesday.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A florist is filling a customer's order for three bouquets\u2014bouquet 1, bouquet 2, and bouquet 3. Each of the bouquets is to be composed of one or more of five kinds of flowers\u2014lilies, peonies, roses, snapdragons, and tulips\u2014subject to the following conditions: Bouquets 1 and 3 cannot have any kind of flower in common. Bouquets 2 and 3 must have exactly two kinds of flowers in common. Bouquet 3 must have snapdragons. If a bouquet has lilies, that bouquet must also have roses but cannot have snapdragons. If a bouquet has tulips, that bouquet must also have peonies.",
+        "conclusion": "If lilies are in bouquet 1, then tulips must be in bouquet 3.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Each issue of a business newsletter has five slots, numbered 1 through 5. The policy of the newsletter requires that there are at least three features per issue, with each feature completely occupying one or more of the slots. Each feature can be one of four types\u2014finance, industry, marketing, or technology. Any slot not containing a feature contains a graphic. The newsletters policy further requires that each issue be structured as follows: Any feature occupying more than one slot must occupy consecutively numbered slots. If an issue has any finance or technology feature, then a finance or technology feature must occupy slot 1. An issue can have at most one industry feature.",
+        "conclusion": "For an issue of the newsletter, it is allowed to have exactly one marketing feature and no finance or technology feature.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A corporation's Human Resources department must determine annual bonuses for seven employees\u2014Kimura, Lopez, Meng, and Peterson, who work in the Finance department; and Vaughan, Xavier, and Zane, who work in the Graphics department. Each employee will receive either a $1,000 bonus, a $3,000 bonus, or a $5,000 bonus, in accordance with the following: No one in the Graphics department receives a $1,000 bonus. Any employee who was rated Highly Effective receives a larger bonus than anyone in his or her department who was not rated Highly Effective. Only Lopez, Meng, and Xavier were rated Highly Effective.",
+        "conclusion": "If only one of the employees receives a $1,000 bonus, then the employee who receives it must be Kimura.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Four boys\u2014Fred, Juan, Marc, and Paul\u2014and three girls\u2014Nita, Rachel, and Trisha\u2014will be assigned to a row of five adjacent lockers, numbered consecutively 1 through 5, arranged along a straight wall. The following conditions govern the assignment of lockers to the seven children: Each locker must be assigned to either one or two children, and each child must be assigned to exactly one locker. Each shared locker must be assigned to one girl and one boy. Juan must share a locker, but Rachel cannot share a locker. Nita's locker cannot be adjacent to Trisha's locker. Fred must be assigned to locker 3.",
+        "conclusion": "If Trisha is assigned to locker 3 and Marc alone is assigned to locker 1, then Juan must be assigned to locker 5.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of five paralegals\u2014Frank, Gina, Hiro, Kevin, and Laurie\u2014is being assigned to exactly one of three cases\u2014the Raimes, Sicoli, or Thompson case. At least one paralegal will be assigned to each case. The following conditions must apply: Either Frank is assigned to Raimes and Kevin is assigned to Thompson, or Frank is not assigned to Raimes and Kevin is not assigned to Thompson. Either Frank is the sole paralegal assigned to his case or Gina is the sole paralegal assigned to her case, but not both. Hiro is assigned to Sicoli.",
+        "conclusion": "If one of the cases has Gina and Laurie as the only paralegals assigned to it, then the statement that Gina is assigned to the Raimes case must be true.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "At a children's festival, exactly four songs are performed, each exactly once: \"Night's All Right,\" \"Question Man,\" \"Rhino Rock,\" and \"Sammy.\" The songs are performed consecutively, each on a different one of exactly four instruments: flute, guitar, harmonica, or keyboard. The songs are performed in accordance with the following: The first song performed is not performed on the flute. If \"Sammy\" is performed on the keyboard, then \"Rhino Rock\" is performed on the harmonica. If \"Question Man\" is performed on the keyboard, then \"Night's All Right\" is performed on the flute. The song performed on the keyboard immediately follows \"Rhino Rock\" and immediately precedes \"Night's All Right.\"",
+        "conclusion": "An accurate matching of the four songs performed at the festival with the instruments on which they are performed, in order from the first to the last, is 'Question Man' on guitar, 'Rhino Rock' on harmonica, 'Sammy' on keyboard, and 'Night's All Right' on flute.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A landscaper will plant exactly seven trees today\u2014a hickory, a larch, a maple, an oak, a plum, a sycamore, and a walnut. Each tree must be planted on exactly one of three lots\u20141, 2, or 3\u2014in conformity with the following requirements: The trees planted on one lot are the hickory, the oak, and exactly one other tree. The maple is not planted on the same lot as the walnut. Either the larch or the walnut, but not both, is planted on lot 1. Either the maple or the oak, but not both, is planted on lot 2. More trees are planted on lot 3 than on lot 1.",
+        "conclusion": "The planting location of all the trees is completely determined if the maple tree is planted on lot 2.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of exactly seven professors\u2014Powell, Shihab, Taylor, Vaughan, Wood, Young, and Zabel\u2014gives exactly one guest lecture in the literary theory course. The lectures are ordered from first through seventh, and their order must conform to the following: Powell lectures before Wood. Taylor lectures before Shihab. Vaughan lectures before Zabel. Shihab is no later than third. Young is not seventh. Powell lectures first if, but only if, Young lectures before Vaughan.",
+        "conclusion": "Shihab could lecture first.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Four boys\u2014Fred, Juan, Marc, and Paul\u2014and three girls\u2014Nita, Rachel, and Trisha\u2014will be assigned to a row of five adjacent lockers, numbered consecutively 1 through 5, arranged along a straight wall. The following conditions govern the assignment of lockers to the seven children: Each locker must be assigned to either one or two children, and each child must be assigned to exactly one locker. Each shared locker must be assigned to one girl and one boy. Juan must share a locker, but Rachel cannot share a locker. Nita's locker cannot be adjacent to Trisha's locker. Fred must be assigned to locker 3.",
+        "conclusion": "If the first three lockers are assigned to girls, then Juan is assigned to the same locker as Trisha.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "As part of an open house at a crafts studio, three teachers\u2014Jiang, Kudrow, and Lanning\u2014will give six consecutive presentations on six different subjects. Jiang will present on needlework and origami; Kudrow on pottery, stenciling, and textile making; and Lanning on woodworking. The order of their presentations will meet the following conditions: Kudrow cannot give two presentations in a row. The presentation on stenciling must be given earlier than the one on origami. The presentation on textile making must be given earlier than the one on woodworking.",
+        "conclusion": "Pottery cannot be the subject of the second presentation.",
+        "label": false
+    },
+    {
+        "type": "lsat",
+        "premises": "Millville has created three new development zones: Z1, Z2, and Z3. Within these zones, subzones can be designated for housing, industrial, or retail use, with no subzone designated for more than one use. By city regulation, a total of no more than three subzones can be designated for each of the three uses. The following restrictions are in place: Retail subzones are not allowed in Z1. No more than two subzones for housing are allowed in any particular zone. No more than one retail subzone is allowed in any zone in which a subzone is designated for housing. Industrial subzones are not allowed in any zone in which a subzone is designated for housing or three subzones are designated for retail use.",
+        "conclusion": "An allowable way of designating subzones within the three zones is Z1 having one industrial subzone, Z2 having two housing subzones and one retail subzone, and Z3 having one industrial subzone and two retail subzones.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "Each of exactly seven professors\u2014Powell, Shihab, Taylor, Vaughan, Wood, Young, and Zabel\u2014gives exactly one guest lecture in the literary theory course. The lectures are ordered from first through seventh, and their order must conform to the following: Powell lectures before Wood. Taylor lectures before Shihab. Vaughan lectures before Zabel. Shihab is no later than third. Young is not seventh. Powell lectures first if, but only if, Young lectures before Vaughan.",
+        "conclusion": "If Young lectures fourth and Taylor lectures first, then Zabel lectures no earlier than sixth.",
+        "label": true
+    },
+    {
+        "type": "lsat",
+        "premises": "A florist is filling a customer's order for three bouquets\u2014bouquet 1, bouquet 2, and bouquet 3. Each of the bouquets is to be composed of one or more of five kinds of flowers\u2014lilies, peonies, roses, snapdragons, and tulips\u2014subject to the following conditions: Bouquets 1 and 3 cannot have any kind of flower in common. Bouquets 2 and 3 must have exactly two kinds of flowers in common. Bouquet 3 must have snapdragons. If a bouquet has lilies, that bouquet must also have roses but cannot have snapdragons. If a bouquet has tulips, that bouquet must also have peonies.",
+        "conclusion": "It cannot be true that peonies, roses, and snapdragons are the only kinds of flowers in bouquet 2.",
+        "label": false
+    }
+]
